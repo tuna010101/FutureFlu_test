@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+ne_star	south	2013	ne_star	-1.244065754621567	2012-09-01
+ne_star	south	2014	ne_star	-0.03083200044867577	2013-09-01
+ne_star	south	2015	ne_star	-0.39479887179423323	2014-09-01
+ne_star	south	2016	ne_star	-0.4719680528110638	2015-09-01
+ne_star	south	2017	ne_star	-0.4891715329936712	2016-09-01
+ne_star	south	2018	ne_star	-0.6045379813298222	2017-09-01
+ne_star	south	2019	ne_star	-0.6001149379832057	2018-09-01
+ne_star	south	2020	ne_star	-0.6892276661591077	2019-09-01
+ne_star	south	2021	ne_star	-0.6549858086457612	2020-09-01
+ne_star	south	2022	ne_star	-0.7150351465258242	2021-09-01
+ne_star	south	2023	ne_star	-0.6463942978701396	2022-09-01
+ne_star	south	2024	ne_star	-0.5959876934858841	2023-09-01

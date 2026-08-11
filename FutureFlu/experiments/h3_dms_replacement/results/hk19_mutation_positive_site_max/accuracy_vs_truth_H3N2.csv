@@ -1,0 +1,15 @@
+scenario,dataset,strategy,combo,method,correct,total,accuracy,available_predictions
+dms_total_escape_replacement,hk19,mutation_positive_site_max,E,fit,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,E,freq,6,24,0.25,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,G,fit,6,24,0.25,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,G,freq,5,24,0.20833333333333334,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,D,fit,8,24,0.3333333333333333,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,D,freq,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,E+G,fit,5,24,0.20833333333333334,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,E+G,freq,6,24,0.25,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,E+D,fit,8,24,0.3333333333333333,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,E+D,freq,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,G+D,fit,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,G+D,freq,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,E+G+D,fit,8,24,0.3333333333333333,24
+dms_total_escape_replacement,hk19,mutation_positive_site_max,E+G+D,freq,6,24,0.25,24

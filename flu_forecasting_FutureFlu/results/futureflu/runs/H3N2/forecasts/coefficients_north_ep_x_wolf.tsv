@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+ep_x_wolf	north	2013	ep_x_wolf	0.3098203187999068	2013-02-01
+ep_x_wolf	north	2014	ep_x_wolf	0.7348420281372104	2014-02-01
+ep_x_wolf	north	2015	ep_x_wolf	0.41771380186801366	2015-02-01
+ep_x_wolf	north	2016	ep_x_wolf	0.08979124819695122	2016-02-01
+ep_x_wolf	north	2017	ep_x_wolf	0.063726267755521	2017-02-01
+ep_x_wolf	north	2018	ep_x_wolf	0.021586065519744076	2018-02-01
+ep_x_wolf	north	2019	ep_x_wolf	0.06218303866282047	2019-02-01
+ep_x_wolf	north	2020	ep_x_wolf	0.016772220114582764	2020-02-01
+ep_x_wolf	north	2021	ep_x_wolf	0.012139555248527938	2021-02-01
+ep_x_wolf	north	2022	ep_x_wolf	0.011924683298483639	2022-02-01
+ep_x_wolf	north	2023	ep_x_wolf	-0.03776708610019579	2023-02-01
+ep_x_wolf	north	2024	ep_x_wolf	0.0047493409177246605	2024-02-01

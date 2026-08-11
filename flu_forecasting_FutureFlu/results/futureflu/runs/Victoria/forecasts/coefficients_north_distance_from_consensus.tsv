@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+distance_from_consensus	north	2013	distance_from_consensus	-3.049146685745827	2013-02-01
+distance_from_consensus	north	2014	distance_from_consensus	-2.879446685833522	2014-02-01
+distance_from_consensus	north	2015	distance_from_consensus	-2.667964014255658	2015-02-01
+distance_from_consensus	north	2016	distance_from_consensus	-2.2552007957790137	2016-02-01
+distance_from_consensus	north	2017	distance_from_consensus	-2.195491008492392	2017-02-01
+distance_from_consensus	north	2018	distance_from_consensus	-2.0751698217403787	2018-02-01
+distance_from_consensus	north	2019	distance_from_consensus	-1.1788218764758425	2019-02-01
+distance_from_consensus	north	2020	distance_from_consensus	-1.067024760063891	2020-02-01
+distance_from_consensus	north	2021	distance_from_consensus	-1.0672080284249357	2021-02-01
+distance_from_consensus	north	2022	distance_from_consensus	-0.7282423503404604	2022-02-01
+distance_from_consensus	north	2023	distance_from_consensus	-0.8161495918853117	2023-02-01
+distance_from_consensus	north	2024	distance_from_consensus	-0.8530541355806303	2024-02-01

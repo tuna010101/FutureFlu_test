@@ -1,0 +1,15 @@
+risk_mutation_group,count,model
+195V,11,linear
+"102A,190V",6,linear
+217T,5,linear
+102I,5,linear
+214I,5,linear
+141D,4,linear
+"186D,360R",4,linear
+"177-,178-,195V",4,linear
+95K,4,linear
+250A,3,linear
+63K,2,linear
+"102I,63K",1,linear
+360R,1,linear
+102A,1,linear

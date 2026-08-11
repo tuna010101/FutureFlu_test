@@ -1,0 +1,4 @@
+dataset,unique_mutations_total,unique_sites_total,unique_mutations_exact_covered,unique_sites_covered,unique_mutation_coverage,unique_site_coverage
+hk19,208,129,157,121,0.7548076923076923,0.937984496124031
+ma22,208,129,197,129,0.9471153846153846,1.0
+pe09,208,129,208,129,1.0,1.0

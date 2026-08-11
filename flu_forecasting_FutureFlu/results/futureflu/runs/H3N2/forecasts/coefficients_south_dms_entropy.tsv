@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+dms_entropy	south	2013	dms_entropy	0.03179210168435754	2012-09-01
+dms_entropy	south	2014	dms_entropy	0.0013630032882221803	2013-09-01
+dms_entropy	south	2015	dms_entropy	-0.01614424592434999	2014-09-01
+dms_entropy	south	2016	dms_entropy	0.025408644414408155	2015-09-01
+dms_entropy	south	2017	dms_entropy	0.06508572233478686	2016-09-01
+dms_entropy	south	2018	dms_entropy	0.02303353142292857	2017-09-01
+dms_entropy	south	2019	dms_entropy	0.05382779946135823	2018-09-01
+dms_entropy	south	2020	dms_entropy	0.053798900696316085	2019-09-01
+dms_entropy	south	2021	dms_entropy	-0.2604815632363425	2020-09-01
+dms_entropy	south	2022	dms_entropy	-2.533907978460842	2021-09-01
+dms_entropy	south	2023	dms_entropy	-2.309637243132662	2022-09-01
+dms_entropy	south	2024	dms_entropy	-2.27633559085541	2023-09-01

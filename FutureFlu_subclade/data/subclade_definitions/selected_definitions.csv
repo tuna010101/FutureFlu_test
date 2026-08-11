@@ -1,0 +1,10 @@
+subtype,hemisphere,year,prediction_cutoff,repo,sha,commit_date,definition_path,status
+H1N1,north,2025,2025-02-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/H1N1_north_2025_subclades.tsv,bundled
+H1N1,south,2025,2024-09-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/H1N1_south_2025_subclades.tsv,bundled
+H1N1,south,2026,2025-09-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/H1N1_south_2026_subclades.tsv,bundled
+H3N2,north,2025,2025-02-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/H3N2_north_2025_subclades.tsv,bundled
+H3N2,south,2025,2024-09-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/H3N2_south_2025_subclades.tsv,bundled
+H3N2,south,2026,2025-09-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/H3N2_south_2026_subclades.tsv,bundled
+Victoria,north,2025,2025-02-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/Victoria_north_2025_subclades.tsv,bundled
+Victoria,south,2025,2024-09-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/Victoria_south_2025_subclades.tsv,bundled
+Victoria,south,2026,2025-09-01T00:00:00+00:00,packaged release input,,,data/subclade_definitions/Victoria_south_2026_subclades.tsv,bundled

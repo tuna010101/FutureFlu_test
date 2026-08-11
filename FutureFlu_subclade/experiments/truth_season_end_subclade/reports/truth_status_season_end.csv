@@ -1,0 +1,7 @@
+subtype,hemisphere,year,season_start,season_end,collection_rows,valid_truth_rows,truth_subclade,truth_count,status
+H1N1,north,2025,2025-09-01,2026-02-01,6933,6913,D.3.1.1,4324,ok
+H1N1,south,2025,2025-02-01,2025-09-01,23185,23167,D.3.1,16158,ok
+H3N2,north,2025,2025-09-01,2026-02-01,20394,20348,K,16541,ok
+H3N2,south,2025,2025-02-01,2025-09-01,14342,14151,J.2,8468,ok
+Victoria,north,2025,2025-09-01,2026-02-01,1566,1563,C.3.1,444,ok
+Victoria,south,2025,2025-02-01,2025-09-01,10691,10691,C.5.1,3363,ok

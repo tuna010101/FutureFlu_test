@@ -1,0 +1,24 @@
+{
+  "lineage": "B/Victoria",
+  "prefix": "victoria",
+  "source_table": "omitted_from_release_package",
+  "metadata_scaffold_dir": "data/futureflu/derived",
+  "output_dir": "data/sequences",
+  "sequence_table_rows": 51021,
+  "sequence_columns": 585,
+  "unique_accessions": 50683,
+  "metadata_rows": 55867,
+  "fasta_records": 55867,
+  "used_metadata_scaffold": true,
+  "missing_scaffold_accessions": 4968,
+  "missing_fasta_sequences": 0,
+  "conflicting_duplicate_accessions": 3,
+  "collection_date_min": "2010-01-01",
+  "collection_date_max": "2025-01-25",
+  "outputs": {
+    "metadata": "data/sequences/victoria_futureflu_metadata.tsv",
+    "fasta": "data/sequences/victoria_futureflu_aa_sequences.fasta",
+    "sequence_table_tsv": "data/sequences/victoria_sequence_table.tsv",
+    "summary": "data/sequences/victoria_futureflu_summary.json"
+  }
+}

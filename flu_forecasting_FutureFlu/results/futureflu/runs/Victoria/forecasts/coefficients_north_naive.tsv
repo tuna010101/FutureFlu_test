@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+naive	north	2013	naive	0.0	2013-02-01
+naive	north	2014	naive	0.0	2014-02-01
+naive	north	2015	naive	0.0	2015-02-01
+naive	north	2016	naive	0.0	2016-02-01
+naive	north	2017	naive	0.0	2017-02-01
+naive	north	2018	naive	0.0	2018-02-01
+naive	north	2019	naive	0.0	2019-02-01
+naive	north	2020	naive	0.0	2020-02-01
+naive	north	2021	naive	0.0	2021-02-01
+naive	north	2022	naive	0.0	2022-02-01
+naive	north	2023	naive	0.0	2023-02-01
+naive	north	2024	naive	0.0	2024-02-01

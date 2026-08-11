@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+dms_star	north	2013	dms_star	-0.0611797830856861	2013-02-01
+dms_star	north	2014	dms_star	-0.06116861368880398	2014-02-01
+dms_star	north	2015	dms_star	-0.022913256258720323	2015-02-01
+dms_star	north	2016	dms_star	0.0019406621336420422	2016-02-01
+dms_star	north	2017	dms_star	0.00658656790946037	2017-02-01
+dms_star	north	2018	dms_star	-0.03566517496406721	2018-02-01
+dms_star	north	2019	dms_star	0.014353405483922449	2019-02-01
+dms_star	north	2020	dms_star	-0.022049125711447706	2020-02-01
+dms_star	north	2021	dms_star	-0.03926849027064598	2021-02-01
+dms_star	north	2022	dms_star	-0.06117279978915301	2022-02-01
+dms_star	north	2023	dms_star	0.009959278855956145	2023-02-01
+dms_star	north	2024	dms_star	0.011718455005642664	2024-02-01

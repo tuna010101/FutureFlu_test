@@ -1,0 +1,174 @@
+subtype,repo,sha,commit_date,message
+H1N1,seasonal_A-H1N1pdm_HA,ac496f507222e5f0c527a10277fd976191cc291c,2026-02-23T08:21:30Z,add citation to readme
+H1N1,seasonal_A-H1N1pdm_HA,8dd321c17429f9ba75dea98192b4bedee0bbab63,2025-12-18T14:24:48Z,chore: root the subclade nwk in 'unassigned'
+H1N1,seasonal_A-H1N1pdm_HA,25b6a5e0752a70864b2bb4ff38f7825419da5266,2025-11-27T17:33:36Z,Merge pull request #6 from influenza-clade-nomenclature/2025-11_add_D.3.1.1
+H1N1,seasonal_A-H1N1pdm_HA,342271cc520e4bda3e8e9bac9d5d6c0dcd1462f3,2025-11-26T19:35:25Z,update date in changelog
+H1N1,seasonal_A-H1N1pdm_HA,c175a1d8afdf9df7efe30f799659dda1f9e368fb,2025-11-23T18:08:58Z,update changelog
+H1N1,seasonal_A-H1N1pdm_HA,faf6fe982a54f0d6343e0f0c40351144f3d773b6,2025-11-23T18:08:20Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,0a0d90ba5b93d567c2676b6edcfc41f826c50012,2025-11-23T18:08:12Z,add subclade D.3.1.1
+H1N1,seasonal_A-H1N1pdm_HA,75eb5b1c4cd22ca925fdedd6629b6fb5a34bc499,2025-11-02T16:12:50Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,0c471d82476f082a102d41c884311064af66c0e0,2025-11-01T10:32:31Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,d2154611ad7b31caf3c4c4086e34d822449b0fe4,2025-11-01T10:19:37Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,1f70be8c2e0e8ccd16eaae5d326b144c659a7274,2025-11-01T10:19:26Z,add aliases to yml
+H1N1,seasonal_A-H1N1pdm_HA,83398079b8ebb4c3ea38079193ed8c23d1b16ce3,2025-08-05T18:24:32Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,2765236a972fac5e636e84ad0419750e70d155fb,2025-08-05T18:24:18Z,adjust D.3.1 definition
+H1N1,seasonal_A-H1N1pdm_HA,6243d8e24ccf2567034e4ecc22bafc4c53d164b6,2025-07-31T12:29:33Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,e30d88fe4179b4c370d9c75a0036802a265e0886,2025-07-31T12:29:23Z,fix d.3.1 definition
+H1N1,seasonal_A-H1N1pdm_HA,33cc1c0b48db9647ba8af902bc22cff6a21c67cb,2025-07-31T12:19:37Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,6dd9481a3a84489a6e127dac0780e970db3629dd,2025-07-31T12:19:37Z,update D.2 definition
+H1N1,seasonal_A-H1N1pdm_HA,958e6489187af0367226254017d7b9f412eec152,2025-07-31T11:56:41Z,Merge pull request #5 from influenza-clade-nomenclature/update-2025-06
+H1N1,seasonal_A-H1N1pdm_HA,7b051bb2af321b0e0b9608c976d6e35185da2b38,2025-07-31T11:55:29Z,update changelog
+H1N1,seasonal_A-H1N1pdm_HA,a9f4ed806c17fc6a0dc7fc7fc02896a48f60cf25,2025-07-31T11:54:01Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,843480cb9c372b363dac20fbe8364791418461df,2025-07-31T11:53:38Z,add D.3.1
+H1N1,seasonal_A-H1N1pdm_HA,d25dd89599b44681307a4139d1206c9966f8bfda,2025-01-18T17:27:56Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,00650495af8cf984cd7abaa02954c536a95c9b9c,2025-01-18T17:27:09Z,add to changelog
+H1N1,seasonal_A-H1N1pdm_HA,d1c94c246a44eb532c353e7b8e6620c4d778558d,2025-01-18T17:23:49Z,add new C.1.9 subclades
+H1N1,seasonal_A-H1N1pdm_HA,96020454d8f139621f4daae1e02e7add3bb7c35c,2024-12-16T19:54:54Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,b55eeaf5e148142ce612ee873f5229640ad704f5,2024-12-16T19:54:53Z,fix file name
+H1N1,seasonal_A-H1N1pdm_HA,c08a5b0d0308094fea59774c243f8945770e68e3,2024-12-16T19:54:21Z,add additional subclade proposal
+H1N1,seasonal_A-H1N1pdm_HA,393fc57103f5dfc3ec67ff3afb9b186fd5645431,2024-12-14T13:30:16Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,d491626cf6ec52452842600160477b90239e39ec,2024-12-14T13:30:11Z,add subclade proposals
+H1N1,seasonal_A-H1N1pdm_HA,7d958bfb6b49df5f96aaedd92b39feb054c551ff,2024-11-12T09:17:29Z,remove erroneously committed file
+H1N1,seasonal_A-H1N1pdm_HA,96d21ce31fa107eab10ede910ed4a4e630189491,2024-11-12T09:14:33Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,e923aa6b03d00e6e5f903a3f6a5436041c34dc4a,2024-11-12T09:13:28Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,559e603680f7d3ef499c69d74b10041f68e34dc9,2024-11-12T09:13:21Z,add D.5
+H1N1,seasonal_A-H1N1pdm_HA,b2a393a2576b9e9695f3de8ca54a866ae4f5ba90,2024-11-06T19:41:03Z,update flu repo path
+H1N1,seasonal_A-H1N1pdm_HA,565f018d3c13742bceaef2db792184c7ff95fce6,2024-11-03T21:37:47Z,update D.5
+H1N1,seasonal_A-H1N1pdm_HA,3d06e398c94f4cf25e7242a00ca30dc301b4e50d,2024-11-03T21:37:22Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,68a6bf0a2ca888b2c5efc42ac084ac1b6a5bd0ae,2024-11-03T21:36:59Z,"update D.1, add D.5 proposal"
+H1N1,seasonal_A-H1N1pdm_HA,911d8e77f4abc5ba500ae3527eca0063c5b6822e,2024-11-03T21:14:38Z,rename subclade proposals
+H1N1,seasonal_A-H1N1pdm_HA,1ceebccfce0a68a3ae0a927e9ba54cf67da0331a,2024-10-26T14:06:39Z,Merge pull request #4 from influenza-clade-nomenclature/clade-proposals
+H1N1,seasonal_A-H1N1pdm_HA,72ca9ddc8c6785dc669c72fc24233f942f1474e8,2024-10-26T14:00:59Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,27aed59f089601d7a0e40c795ff0bd38a8247d79,2024-10-26T14:00:53Z,add proposal of D.5
+H1N1,seasonal_A-H1N1pdm_HA,6182f588bd5c95475702081a69ce4c26ae58178e,2024-06-25T16:20:37Z,Merge pull request #3 from influenza-clade-nomenclature/add-clade-1
+H1N1,seasonal_A-H1N1pdm_HA,f081764a05f86ac14e54a8a5f3810b19070cfe4c,2024-06-24T18:04:11Z,Add pandemic-era clade 1 definition
+H1N1,seasonal_A-H1N1pdm_HA,379c656306e1d33193529a033d4392769cf48ec9,2024-04-16T16:12:21Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,7dee2356c8cd1487ca7c17abe56c63c0be802c81,2024-04-16T16:12:09Z,rename files
+H1N1,seasonal_A-H1N1pdm_HA,6ac9e8e407bb21c08bd6c005cb9f167aa7216c62,2024-04-16T16:09:59Z,add alias and remove some clades
+H1N1,seasonal_A-H1N1pdm_HA,4b6eb5e545611f81732ec66f6fff91e9a3fe250d,2024-04-14T13:26:07Z,add clades
+H1N1,seasonal_A-H1N1pdm_HA,96fc43e7e52c966f28a26d1f7db42427e0a651cf,2024-04-14T11:31:42Z,add subclades
+H1N1,seasonal_A-H1N1pdm_HA,92cececcc65b7f2f8a46cf0b4abb812459205a50,2023-11-10T20:14:03Z,add changelog
+H1N1,seasonal_A-H1N1pdm_HA,3b1734ba4e279d6a3bb3b5ff552973ea81dc3c63,2023-11-10T14:04:18Z,add to readme
+H1N1,seasonal_A-H1N1pdm_HA,d7cf7295d47f067fe6852fec1e2b4fa8b4822299,2023-11-10T14:04:08Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,e9b00fe2660c08a58647ceca0d27753adb9d1b96,2023-11-09T16:43:46Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,f31218f8efc0356282028471d2b8b4b38ab590f9,2023-11-09T16:42:43Z,clades: add C.1.7
+H1N1,seasonal_A-H1N1pdm_HA,fdb31930dad7c008d42c59dcedd51ee27488663d,2023-11-09T16:41:11Z,"algo: swap tree, adjust params"
+H1N1,seasonal_A-H1N1pdm_HA,74c9ffc2cd70361f750e416bd78afb1e73a707cf,2023-11-08T07:43:45Z,add config files
+H1N1,seasonal_A-H1N1pdm_HA,79491842b725112b497c027d88210ae283e81a48,2023-08-28T21:06:32Z,add missing clades.tsv
+H1N1,seasonal_A-H1N1pdm_HA,ff9cacf82a03c2011a9b8a1499b53974bb22908e,2023-08-28T20:57:33Z,update auto-generated files
+H1N1,seasonal_A-H1N1pdm_HA,c922ec31d46a010df301554f138f71ba85d3dc36,2023-08-28T20:57:16Z,fix off-by-one error
+H1N1,seasonal_A-H1N1pdm_HA,696cd5f4e5000936fa78dba7bc17aa78f7f198b8,2023-08-28T19:20:31Z,add to readme
+H1N1,seasonal_A-H1N1pdm_HA,89611d7852daad760e4fcfae7489b6dd35d8d138,2023-08-28T19:10:28Z,initial import
+H3N2,seasonal_A-H3N2_HA,6e6df48abaf6c57464607021bebae33d73cbe37e,2026-02-23T08:20:34Z,add citation to readme
+H3N2,seasonal_A-H3N2_HA,3480dcc5855424c604bdb460fe0a7d8968f727b3,2025-12-18T14:21:55Z,chore: root the subclade nwk in 'unassigned'
+H3N2,seasonal_A-H3N2_HA,6ba61ff98cf0c21e9f8d44f84e13bf619796ea11,2025-11-15T16:37:58Z,add the alias to config
+H3N2,seasonal_A-H3N2_HA,84be5e47c52a9b32f5fefba61d55ebbb2df62e89,2025-11-02T16:09:52Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,a84f2c9b125e7bbd7ddc562c205b01e2a2003ee5,2025-11-01T10:30:47Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,c601d11a0ca098851df057cd54d11fb1e97d80ad,2025-11-01T10:12:55Z,update autogenerated files
+H3N2,seasonal_A-H3N2_HA,5f846cc76a26b2770e4d88ddfa3b0913e1b3ec4c,2025-10-28T19:52:45Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,625313d289a8a18f127d7859c5f8e28f3d30bad8,2025-10-28T19:52:27Z,alias J.2.4.1
+H3N2,seasonal_A-H3N2_HA,68b7b58d7ba03a547d788a5616b0c0451610fca0,2025-10-11T14:20:16Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,8d7053e09c47db481c3a1ecdc840b8afd5f30e3c,2025-10-11T14:19:55Z,adjust definition
+H3N2,seasonal_A-H3N2_HA,d23bbb76fda347e8a79fe40d1532d85bf108720b,2025-10-11T13:39:56Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,c5dd1689484d7af02bf56348ab14bb2055eca531,2025-10-11T13:37:36Z,add J.2.4.1
+H3N2,seasonal_A-H3N2_HA,8dfb6a3a938728fbfd4d93ee95e04aea886f8da1,2025-10-08T22:32:22Z,Fix typo for J.2.2 in CHANGELOG
+H3N2,seasonal_A-H3N2_HA,6d3e2b23ea769aa14580dd0a4f02e18de8c9a449,2025-08-20T08:31:27Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,7f3dfbf2b4acad6e4cd17577abef213a7581826e,2025-08-20T08:31:05Z,fix: un-aliased names of J.2 subclades
+H3N2,seasonal_A-H3N2_HA,937760957e9bc44c9ab62b1564ed7225e4cf3098,2025-08-05T16:58:54Z,Merge pull request #3 from influenza-clade-nomenclature/add-J.2.5
+H3N2,seasonal_A-H3N2_HA,cd02e43c99978668735e9e55c3d7402cbe091dfb,2025-08-05T16:58:25Z,Update change log
+H3N2,seasonal_A-H3N2_HA,aedcba677b359da0ebc18e74c69218f75c516a59,2025-08-05T16:56:50Z,Add J.2.5
+H3N2,seasonal_A-H3N2_HA,eff7ef9f0b63be1c5dcf87c98048b12252c9af48,2025-08-03T13:39:04Z,"remove obsolete subclade proposals, update tsv"
+H3N2,seasonal_A-H3N2_HA,2a4946c11f0f7890cbfe3658a04c77d7f7e55dc4,2025-07-30T23:10:41Z,Merge pull request #2 from influenza-clade-nomenclature/proposed-subclades-2025-07
+H3N2,seasonal_A-H3N2_HA,47029f442df0936f19d4db6befc5277a6a8decfe,2025-07-30T23:09:59Z,Update change log
+H3N2,seasonal_A-H3N2_HA,d79c221035496f273b7e2a31152b21df990a21b4,2025-07-30T23:06:33Z,Add subclades J.2.3 and J.2.4
+H3N2,seasonal_A-H3N2_HA,014e54fb63242e0e8b3877b92aed9cc5e97c6bf5,2025-02-19T01:32:17Z,Use AA substitutions in proposed subclade names
+H3N2,seasonal_A-H3N2_HA,391dc5fefc85fbf9d9611d36efb5424335505913,2025-01-04T15:42:35Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,22b91235867afe82d9b5a5cc1f57547a2d6f69c5,2025-01-04T15:42:10Z,add J.2.e proposal
+H3N2,seasonal_A-H3N2_HA,1dddb7786b27414b55c527d283bc8828b3fa5f1b,2025-01-02T18:08:40Z,Propose J.2.d with HA1:223I
+H3N2,seasonal_A-H3N2_HA,a8fe518da712abdc7de05c054fbb8cb89c0fcfc2,2024-12-14T13:21:02Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,c8c784f100a61db2ffa6c26f365bce95294f0e66,2024-12-14T13:20:07Z,remove obsolete
+H3N2,seasonal_A-H3N2_HA,92c293278da795ae4b86437a81cf1c37ff6abaf3,2024-12-14T13:19:49Z,update names
+H3N2,seasonal_A-H3N2_HA,0e2e1d145d4b6f600e51b6e49328612cd80b1c1d,2024-12-14T13:17:06Z,add three subclade-proposals for H3N2 HA
+H3N2,seasonal_A-H3N2_HA,779643b3bec52bf18556505a819412eb274c7e23,2024-11-12T09:09:47Z,update changelog
+H3N2,seasonal_A-H3N2_HA,624be3df1299390154fc4556aff710b9e752f99a,2024-11-12T09:04:54Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,378765fcb68fb1dd27d7fa594201710054779c3a,2024-11-12T09:04:43Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,190ffdddc8242b53b3decae5b19fa0abfb8c2f53,2024-11-06T19:42:41Z,update flu repo path
+H3N2,seasonal_A-H3N2_HA,500af313a96204c934bff38168b8592244155d25,2024-11-03T21:09:15Z,rename subclade proposals
+H3N2,seasonal_A-H3N2_HA,18502eadb2b303cb88cbd8713a155775d50076b3,2024-11-03T21:09:15Z,rename subclade proposals
+H3N2,seasonal_A-H3N2_HA,2ac877323a68814e78f65ca621f8f845238a4a39,2024-10-26T14:07:41Z,Merge pull request #1 from influenza-clade-nomenclature/clade-proposals
+H3N2,seasonal_A-H3N2_HA,f8556e5b2478bee6f2e71cdafab2c42f0ff3a807,2024-10-26T13:49:22Z,update instructions to generate tsv files
+H3N2,seasonal_A-H3N2_HA,e098df73a587b959232f9b8086f225d1ca1913a6,2024-10-26T13:40:19Z,add J.1 and J.2 subclade proposals
+H3N2,seasonal_A-H3N2_HA,3af35080f3bae9bad57def7a43ffded70e762e02,2024-03-09T21:30:03Z,update aliases
+H3N2,seasonal_A-H3N2_HA,6e4dbaac67645f446b51b4156c0c66fe2c867787,2024-02-22T13:15:52Z,update changelog
+H3N2,seasonal_A-H3N2_HA,22cbd95c2824db04efe62cad9b3f35b7e61b3951,2024-02-22T13:15:37Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,40e3339a3cac6941a9881a0f9f8d87d98dcf9ec4,2024-02-21T15:37:32Z,update clade alias and regenerate autogenerated files
+H3N2,seasonal_A-H3N2_HA,4fb1d77f1cc171294a279d47f7b6c37a2a319656,2024-02-21T11:53:07Z,rename H to J
+H3N2,seasonal_A-H3N2_HA,8b9063d36fa696a95ae23a4dcf12155eac4f94c5,2023-12-20T08:16:06Z,update autogenerated files
+H3N2,seasonal_A-H3N2_HA,59e77ab8ff0afd40620272695920d225eaafbd37,2023-12-20T08:15:33Z,subclade: adjust definition of H.1 to be more inclusive
+H3N2,seasonal_A-H3N2_HA,e795db62b1cadd798754ac0e1e116c16305388b3,2023-12-19T19:20:14Z,add to changelog and autogenerated files
+H3N2,seasonal_A-H3N2_HA,034bfa2e1ac9a1964bd7f13a3235e17c39ed9735,2023-12-19T19:17:02Z,subclades: add subclade definitions of H
+H3N2,seasonal_A-H3N2_HA,5eb77dd901ab685780dbf3ba0553c6502a8e297a,2023-11-28T09:32:47Z,fix: link in markdown
+H3N2,seasonal_A-H3N2_HA,7a8f182d3d4b281813a19dbe236fe9e1c963fb66,2023-11-27T13:37:00Z,conexxt: update links for representative viruses
+H3N2,seasonal_A-H3N2_HA,68fd6012134a2b76553cbb4666adf0c8747062fc,2023-11-27T13:32:40Z,context: add reference viruses
+H3N2,seasonal_A-H3N2_HA,ff50ffd0a412e67eb01a5863cf81f797d8cc0c18,2023-11-10T20:13:07Z,add changelog
+H3N2,seasonal_A-H3N2_HA,fae142530fb7e4e6d87d39db43f6f184143d8b6e,2023-11-10T14:00:22Z,update readme
+H3N2,seasonal_A-H3N2_HA,3f02e9d3daead172260d4508152c7b40fcfa0ba8,2023-11-10T13:59:58Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,1c232f999f69d77c6d5891045d92f5c52bbd2d32,2023-11-10T13:59:07Z,clades: fix re-aliased parent
+H3N2,seasonal_A-H3N2_HA,afc18de0d06e9de7384af3b1e766a36958a84858,2023-11-10T13:56:58Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,93a8d6d892719f939560339bad46150c0974d4d5,2023-11-09T17:24:21Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,bd63889c615886f5242163071da22fa4193c6193,2023-11-09T17:23:47Z,alias: rename G.1.3.1.1 to H
+H3N2,seasonal_A-H3N2_HA,5a4a9d2d7e20184d4099f1e80981de611d42adff,2023-11-09T16:40:17Z,"algo: swap tree, adjust params"
+H3N2,seasonal_A-H3N2_HA,35b2df364d86d0e1f75d4ba068099a2909c6105d,2023-11-08T07:44:23Z,add new alias
+H3N2,seasonal_A-H3N2_HA,86d0c950210fab2066073711661e1602a5c294d1,2023-09-26T21:16:29Z,update clades tsv
+H3N2,seasonal_A-H3N2_HA,8de50234e34d6b14d098642fbf8720a0778d77ff,2023-08-28T21:07:04Z,add missing clades.tsv
+H3N2,seasonal_A-H3N2_HA,2875c7408c4386ee5e856cd453a9420187a96cb5,2023-08-28T20:55:22Z,update auto-generated files
+H3N2,seasonal_A-H3N2_HA,6a5ea9741dc41bef31c99036b6c23646b9ce2596,2023-08-28T20:55:06Z,fix off-by-one error
+H3N2,seasonal_A-H3N2_HA,3088271a0896e74ada5e84d38ebb8a4475efac00,2023-08-26T19:22:09Z,add config
+H3N2,seasonal_A-H3N2_HA,621a00bfa35c6585ff1ad7bc8e81660d23243d40,2023-08-26T17:56:48Z,remove broken link
+H3N2,seasonal_A-H3N2_HA,5d8d0f297dc934380012f2d92d475fbc44eb7454,2023-08-26T17:55:49Z,add clade yamls
+H3N2,seasonal_A-H3N2_HA,2e5e5bbe11b1ba4ee0213a3bd16561a1ff214df2,2023-08-26T17:54:09Z,add clades.tsv
+H3N2,seasonal_A-H3N2_HA,2c8f06255b1d7892b90ede7da4592c0a32052a9d,2023-08-26T17:16:23Z,add to README
+H3N2,seasonal_A-H3N2_HA,416783f1495999716cd4b6e4be79b9c2a1a7e8f7,2023-08-26T11:21:05Z,fix readme title
+H3N2,seasonal_A-H3N2_HA,bc253bbd182124fd903d2dc62f9eba196f9d46d2,2023-08-26T11:20:05Z,add links to readme
+H3N2,seasonal_A-H3N2_HA,1c5bba3fb78cb0a71e9802c8638158207e8eca01,2023-08-26T11:18:55Z,add table to subclade.md
+H3N2,seasonal_A-H3N2_HA,03a7778edf7aa4189b31504459261dbdfdb20f9b,2023-08-26T11:08:18Z,add subclades.tsv
+H3N2,seasonal_A-H3N2_HA,4e8974fa372df8384cb585778d79a4c09e30c174,2023-08-26T11:08:02Z,add aliases
+H3N2,seasonal_A-H3N2_HA,fa6801e37089493f72edcac5749a0566192bc508,2023-08-25T21:28:16Z,add link to nextstrain
+H3N2,seasonal_A-H3N2_HA,fc1a5654659d9b14798ea39e627608d2b82f2a8e,2023-08-25T21:18:47Z,add representatives for A
+H3N2,seasonal_A-H3N2_HA,ea79fae4c3b31853285f2777b9e7d341d7726e11,2023-08-25T20:58:37Z,initital import
+H3N2,seasonal_A-H3N2_HA,e703bab57302095272c6216a316449278fbcdce3,2023-08-25T20:44:31Z,Initial commit
+Victoria,seasonal_B-Vic_HA,34c60b4f93067e72ad3e2b6b2f42e052cd162a8e,2026-03-22T01:04:05Z,update auto-generated files
+Victoria,seasonal_B-Vic_HA,7a3af9ff2293aa6ead487768c44ed2fa76452848,2026-03-21T19:24:14Z,add subclade C.3.3
+Victoria,seasonal_B-Vic_HA,89de6af0e2c14f0dd3a051226e874e2c6bed2b43,2026-02-23T08:22:08Z,add citation to readme
+Victoria,seasonal_B-Vic_HA,d3c18509123cd718086f7596e5529a354c68588d,2025-12-18T14:28:23Z,chore: root the subclade nwk in 'unassigned'
+Victoria,seasonal_B-Vic_HA,6d1e2cff45d5515cacf235f08a0ddcf46cb977fb,2025-11-16T16:08:14Z,fix subclade tree
+Victoria,seasonal_B-Vic_HA,297372616a00255954bcc6b80f84a0cdfe8dfb47,2025-11-02T16:14:42Z,update auto-generated files
+Victoria,seasonal_B-Vic_HA,4f7c94ca3ffbbf96d4847ccd960ae0664eefdc6f,2025-11-01T10:29:31Z,patch update commands
+Victoria,seasonal_B-Vic_HA,48ab7994614a25c1c11d2bd414fb29503c906392,2025-11-01T10:29:05Z,update auto-generated files
+Victoria,seasonal_B-Vic_HA,34abee7985a9f4bf38409788f6072750830bf942,2025-11-01T10:27:06Z,update auto-generated files
+Victoria,seasonal_B-Vic_HA,502a2f2618bcadc7a5f22998e017993e1e1e5e63,2025-11-01T10:26:50Z,add aliases to ymls
+Victoria,seasonal_B-Vic_HA,5017edfb2ea564232b4b5abf0ea9ca72b842669e,2025-08-05T17:18:20Z,Merge pull request #2 from influenza-clade-nomenclature/add-C.3.2
+Victoria,seasonal_B-Vic_HA,547091c9af9494badfc24796e0220bbac3a4514a,2025-08-05T17:08:13Z,Update change log
+Victoria,seasonal_B-Vic_HA,3bc8c7bc52de6d7dc32c1ac2e11a1d6187dde7d5,2025-08-05T17:07:06Z,Add C.3.2
+Victoria,seasonal_B-Vic_HA,4ac0d3ef95a00970c53e15e439d935755b3ac7b2,2025-07-30T18:38:31Z,Merge pull request #1 from influenza-clade-nomenclature/propose-subclades-2025-07
+Victoria,seasonal_B-Vic_HA,c669e77ec86c6192e3990589f9f3ede0aac885b2,2025-07-30T18:38:13Z,Update change log
+Victoria,seasonal_B-Vic_HA,5e220b88012ba911ea23fcb2615b2e3dbc62810c,2025-07-28T20:41:18Z,Add C.5.6.1 subclade with 37I substitution
+Victoria,seasonal_B-Vic_HA,2afdc0867b7c2dbaba3d4ca5f9ad325cd2d36393,2025-07-08T23:05:34Z,Propose new subclade of C.3
+Victoria,seasonal_B-Vic_HA,012e5ad4803a88f1e6263953b1cf5e7b89f34ec0,2024-11-06T19:43:02Z,update flu repo path
+Victoria,seasonal_B-Vic_HA,538c8109eb1c731c08e8bbfffdc4d35d5ee94c02,2024-11-03T21:18:05Z,rename subclade proposals
+Victoria,seasonal_B-Vic_HA,5f2141e0d4fd236588941890be8ebbe3975d8ccb,2024-10-26T14:04:00Z,update auto-generated files
+Victoria,seasonal_B-Vic_HA,5449b4b5bf5afd0701e7e93ec50a956299ba600b,2023-11-28T09:31:35Z,fix: links in markdown
+Victoria,seasonal_B-Vic_HA,4d2ff656bfee4ff04aeef9951ab7b67677206919,2023-11-28T09:26:46Z,fix: links in markdown
+Victoria,seasonal_B-Vic_HA,b99e8450af4f8b7e87e90632635d05f04f2ab341,2023-11-28T09:23:32Z,docs: add representative strains
+Victoria,seasonal_B-Vic_HA,8c234d30274e76f4afd8aea9e43f540a0b3eca83,2023-11-22T14:29:07Z,update auto-generated files
+Victoria,seasonal_B-Vic_HA,c7b2718a4b10f1ded0fd191e45af61697f98a9e7,2023-11-22T14:27:12Z,clades: augment definition of C.2 and C.4 to include previously calde defining positions
+Victoria,seasonal_B-Vic_HA,20b17feea4b13e495b0f5ec1707ded8c0f7eb104,2023-11-10T20:14:44Z,add changelog
+Victoria,seasonal_B-Vic_HA,c48dd9a7d7bf1a5251d0e8278590191120e7dcab,2023-11-08T15:37:43Z,update auto-generated files
+Victoria,seasonal_B-Vic_HA,6ff40ddc49afc35f20826191078926c5b4fa3e9c,2023-11-08T15:37:15Z,clades: add 4 subclades
+Victoria,seasonal_B-Vic_HA,50ade27fa219222b7d0378441fc316c35edaf0fd,2023-11-08T15:36:57Z,algo: switch to 2y tree
+Victoria,seasonal_B-Vic_HA,2b03d671a3090a4bf7a786ff99d8608355c843cd,2023-11-08T07:44:58Z,add config files
+Victoria,seasonal_B-Vic_HA,4e038ca6ff2f272eb1b1681a7d071a7fe478dad0,2023-08-28T21:07:33Z,fix typo in readme
+Victoria,seasonal_B-Vic_HA,154b9a023a9e0a56125b5baecb868e3965851e07,2023-08-28T21:05:47Z,add missing clades.tsv
+Victoria,seasonal_B-Vic_HA,c7c6ffd33cf4cbeb2d93f503436eb3f754f76e16,2023-08-28T21:03:51Z,update auto-generated files
+Victoria,seasonal_B-Vic_HA,8f1abb92773a802b03170fa75a5f519e97f54e9f,2023-08-28T21:02:31Z,fix off-by-one error
+Victoria,seasonal_B-Vic_HA,b3c96c0b501c122371329faa0ef598ed7bef6fbd,2023-08-28T19:27:35Z,initial import

@@ -1,0 +1,6 @@
+risk_mutation_group,count,model
+"169T,190I,278S",64,linear
+86P,17,linear
+"169T,190I",15,linear
+278S,9,linear
+190I,1,linear

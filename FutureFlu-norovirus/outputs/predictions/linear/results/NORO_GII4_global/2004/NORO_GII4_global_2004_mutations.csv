@@ -1,0 +1,10 @@
+predict_season,risk_mutation,previous_prevalence,predicted_prevalence,delta,model
+2004,297R,0.5,1.0,0.5,linear
+2004,329R,0.5,0.75,0.25,linear
+2004,333M,0.5,1.0,0.5,linear
+2004,355D,0.5,0.75,0.25,linear
+2004,365I,0.5,0.75,0.25,linear
+2004,368N,0.5,0.75,0.25,linear
+2004,368S,0.5,0.75,0.25,linear
+2004,392-,0.5,0.75,0.25,linear
+2004,394G,0.5,0.75,0.25,linear

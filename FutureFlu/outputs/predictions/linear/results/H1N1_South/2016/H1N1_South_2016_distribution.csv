@@ -1,0 +1,5 @@
+risk_mutation_group,count,model
+101N,140,linear
+146D,31,linear
+53M,15,linear
+"101N,146D",1,linear

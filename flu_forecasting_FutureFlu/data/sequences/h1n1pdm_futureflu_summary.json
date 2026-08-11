@@ -1,0 +1,24 @@
+{
+  "lineage": "A/H1N1pdm09",
+  "prefix": "h1n1pdm",
+  "source_table": "omitted_from_release_package",
+  "metadata_scaffold_dir": "data/futureflu/derived",
+  "output_dir": "data/sequences",
+  "sequence_table_rows": 104852,
+  "sequence_columns": 566,
+  "unique_accessions": 104332,
+  "metadata_rows": 104852,
+  "fasta_records": 104852,
+  "used_metadata_scaffold": true,
+  "missing_scaffold_accessions": 0,
+  "missing_fasta_sequences": 0,
+  "conflicting_duplicate_accessions": 3,
+  "collection_date_min": "2010-01-01",
+  "collection_date_max": "2025-01-25",
+  "outputs": {
+    "metadata": "data/sequences/h1n1pdm_futureflu_metadata.tsv",
+    "fasta": "data/sequences/h1n1pdm_futureflu_aa_sequences.fasta",
+    "sequence_table_tsv": "data/sequences/h1n1pdm_sequence_table.tsv",
+    "summary": "data/sequences/h1n1pdm_futureflu_summary.json"
+  }
+}

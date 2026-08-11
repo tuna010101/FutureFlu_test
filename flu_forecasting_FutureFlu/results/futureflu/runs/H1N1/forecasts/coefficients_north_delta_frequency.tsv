@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+delta_frequency	north	2013	delta_frequency	-0.3159444196049762	2013-02-01
+delta_frequency	north	2014	delta_frequency	0.016373360787771667	2014-02-01
+delta_frequency	north	2015	delta_frequency	0.039022973824699214	2015-02-01
+delta_frequency	north	2016	delta_frequency	0.01829711997462049	2016-02-01
+delta_frequency	north	2017	delta_frequency	0.05152499557296811	2017-02-01
+delta_frequency	north	2018	delta_frequency	0.016483039385861094	2018-02-01
+delta_frequency	north	2019	delta_frequency	-0.018328175627336428	2019-02-01
+delta_frequency	north	2020	delta_frequency	0.00865558468114669	2020-02-01
+delta_frequency	north	2021	delta_frequency	-0.018340434965190697	2021-02-01
+delta_frequency	north	2022	delta_frequency	-0.006495046353309374	2022-02-01
+delta_frequency	north	2023	delta_frequency	0.03425389627983442	2023-02-01
+delta_frequency	north	2024	delta_frequency	0.011658548525374252	2024-02-01

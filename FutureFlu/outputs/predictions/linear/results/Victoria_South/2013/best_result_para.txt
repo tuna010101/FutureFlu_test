@@ -1,0 +1,15 @@
+分析开始时间: 2026-08-03 14:38:51
+--------------------------------------------------
+reproduction input seq_file: data/Victoria_HA_sequence_20250131.csv
+reproduction input epi_file: not_in_package:data/positivity/Victoria_positive_rate_south.csv
+
+开始不同年份范围的拟合分析:
+
+使用3年数据进行拟合 (2010-2012):
+当前最佳 - Theta: 0.10, R²: 0.133
+
+=== 最终最优拟合结果 ===
+使用年份范围: 2010-2012 (3年)
+最优Theta: 0.10
+最优R²: 0.133
+best theta: 0.1, R2: 0.133, years used: 3

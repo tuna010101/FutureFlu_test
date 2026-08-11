@@ -1,0 +1,4 @@
+risk_mutation_group,count,model
+"375L,395A",1,linear
+"298N,314A,329R,355D,365I,368N,394G",1,linear
+"297Q,298N,340R,368S,372S,382R,393S,394T",1,linear

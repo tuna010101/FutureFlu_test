@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.snakemake/
+logs/
+benchmarks/
+trash/
+*.log
+*.tmp
+.DS_Store
+flu-forecasting/
+
+# GISAID-derived tip tables (contain aa_sequence / strain-level fields).
+**/tip_attributes.tsv
+**/tip_attributes_with_naive.tsv
+**/tip_attributes_with_weighted_distances.tsv
+**/tip_attributes_issue_dates_with_naive.tsv

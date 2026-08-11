@@ -1,0 +1,12 @@
+risk_mutation_group,count,model
+144D,51,linear
+224N,34,linear
+"217V,224N",4,linear
+"144D,74D",4,linear
+"205I,224N",3,linear
+"187S,67E",3,linear
+"224N,67N",2,linear
+292R,2,linear
+"144T,192I",2,linear
+"192I,224N,53R,96A",2,linear
+192I,1,linear

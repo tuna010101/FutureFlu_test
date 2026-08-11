@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.DS_Store
+*_sequence.csv
+*_sequence_table*
+data/sequences/
+**/_step_outputs/
+_step_outputs/
+trash/

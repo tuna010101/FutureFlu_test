@@ -1,0 +1,5 @@
+risk_mutation_group,count,model
+"154S,159R,177M,233K,252D,289I,313N",3,linear
+183L,2,linear
+125M,1,linear
+206G,1,linear

@@ -1,0 +1,78 @@
+# FutureFlu lineage run specifications (single source of truth).
+# Consumed by scripts/run_futureflu_workflow.py.
+
+defaults:
+  global_start: "2004-02-01"
+  issue_start: "2010-02-01"
+  issue_end: "2024-09-01"
+  forecast_years: [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+  export_run: "primary"
+
+predictors:
+  no_hi_no_dms:
+    - naive
+    - lbi
+    - delta_frequency
+    - distance_from_consensus
+    - ep_x
+    - ep_star
+    - ne_star
+    - ep_x,ne_star
+    - ep_star,ne_star
+    - ne_star,lbi
+  h3n2:
+    - naive
+    - lbi
+    - cTiterSub_x
+    - ep_x
+    - ep_x_wolf
+    - ep_x_koel
+    - oracle_x
+    - delta_frequency
+    - distance_from_consensus
+    - ep_star
+    - ne_star
+    - dms_star
+    - dms_nonepitope
+    - dms_entropy
+    - ep_star,ne_star
+    - ep_x,ne_star
+    - ne_star,lbi
+    - cTiterSub_x,ne_star
+
+lineages:
+  h1n1pdm:
+    label: H1N1pdm
+    virus: H1N1
+    prefix: h1n1pdm
+    run_name: H1N1
+    global_end: "2024-09-01"
+    distance_map_root: config/futureflu/distance_maps/h1n1pdm/ha
+    disable_hi: true
+    disable_dms: true
+    allow_hi_fallback: false
+    predictors: no_hi_no_dms
+
+  h3n2:
+    label: H3N2
+    virus: H3N2
+    prefix: h3n2
+    run_name: H3N2
+    global_end: "2024-09-01"
+    distance_map_root: $FLU_FORECASTING_ROOT/config/distance_maps/h3n2/ha
+    disable_hi: false
+    disable_dms: false
+    allow_hi_fallback: true
+    predictors: h3n2
+
+  victoria:
+    label: Victoria
+    virus: Victoria
+    prefix: victoria
+    run_name: Victoria
+    global_end: "2024-09-01"
+    distance_map_root: config/futureflu/distance_maps/victoria/ha
+    disable_hi: true
+    disable_dms: true
+    allow_hi_fallback: false
+    predictors: no_hi_no_dms

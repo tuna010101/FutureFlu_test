@@ -1,0 +1,15 @@
+risk_mutation_group,count,model
+"183V,200P,222K",48,linear
+232G,24,linear
+"200P,222K",19,linear
+338I,16,linear
+"200P,232G",16,linear
+88Y,11,linear
+222K,10,linear
+240R,7,linear
+136R,7,linear
+"232G,314Q",7,linear
+341V,6,linear
+314Q,4,linear
+200P,2,linear
+"200P,222K,240R",1,linear

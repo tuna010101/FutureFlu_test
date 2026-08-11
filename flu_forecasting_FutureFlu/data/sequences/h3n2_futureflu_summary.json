@@ -1,0 +1,24 @@
+{
+  "lineage": "A/H3N2",
+  "prefix": "h3n2",
+  "source_table": "omitted_from_release_package",
+  "metadata_scaffold_dir": "data/futureflu/derived",
+  "output_dir": "data/sequences",
+  "sequence_table_rows": 153594,
+  "sequence_columns": 566,
+  "unique_accessions": 152877,
+  "metadata_rows": 153608,
+  "fasta_records": 153608,
+  "used_metadata_scaffold": true,
+  "missing_scaffold_accessions": 0,
+  "missing_fasta_sequences": 0,
+  "conflicting_duplicate_accessions": 10,
+  "collection_date_min": "2010-01-01",
+  "collection_date_max": "2025-01-22",
+  "outputs": {
+    "metadata": "data/sequences/h3n2_futureflu_metadata.tsv",
+    "fasta": "data/sequences/h3n2_futureflu_aa_sequences.fasta",
+    "sequence_table_tsv": "data/sequences/h3n2_sequence_table.tsv",
+    "summary": "data/sequences/h3n2_futureflu_summary.json"
+  }
+}

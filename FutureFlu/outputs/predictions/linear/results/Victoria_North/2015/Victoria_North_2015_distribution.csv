@@ -1,0 +1,16 @@
+risk_mutation_group,count,model
+"161I,263I,333V",3,linear
+30I,3,linear
+"161I,291T",3,linear
+161I,2,linear
+"139A,71N",1,linear
+243V,1,linear
+"161I,263I",1,linear
+"132V,214A,294K",1,linear
+67N,1,linear
+328D,1,linear
+181S,1,linear
+"161I,212D",1,linear
+"161I,263I,333V,356S",1,linear
+205I,1,linear
+"132V,161I",1,linear

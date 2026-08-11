@@ -1,0 +1,15 @@
+subtype,metric_combine,accuracy,hit_count,total_count,methods
+NORO_GII4,E,0.3333,5,15,fit
+NORO_GII4,E,0.4667,7,15,freq
+NORO_GII4,G,0.6,9,15,fit
+NORO_GII4,G,0.5333,8,15,freq
+NORO_GII4,D,0.4,6,15,fit
+NORO_GII4,D,0.5333,8,15,freq
+NORO_GII4,E+G,0.5333,8,15,fit
+NORO_GII4,E+G,0.5333,8,15,freq
+NORO_GII4,E+D,0.4667,7,15,fit
+NORO_GII4,E+D,0.4667,7,15,freq
+NORO_GII4,G+D,0.6,9,15,fit
+NORO_GII4,G+D,0.5333,8,15,freq
+NORO_GII4,E+G+D,0.4667,7,15,fit
+NORO_GII4,E+G+D,0.5333,8,15,freq

@@ -1,0 +1,7 @@
+mode,subtype,combo,method,correct,total,accuracy,available_predictions,summary_scope
+baseline_ha1,All,E+G+D,fit,46,72,0.6388888888888888,71,best_all_by_mode
+ha_full,All,E+G,freq,41,72,0.5694444444444444,72,best_all_by_mode
+ha_full_na_full,All,E+G+D,fit,44,72,0.6111111111111112,72,best_all_by_mode
+baseline_ha1,H1N1,G+D,fit,16,24,0.6666666666666666,24,best_by_subtype
+baseline_ha1,H3N2,E+D,fit,10,24,0.4166666666666667,24,best_by_subtype
+ha_full_na_full,Victoria,E+G,freq,21,24,0.875,24,best_by_subtype

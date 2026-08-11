@@ -1,0 +1,77 @@
+source,subtype,display_method,correct,total,accuracy,available_predictions
+EVEscape,H1N1,EVEscape accessibility_wcn,9,24,0.375,24
+EVEscape,H1N1,EVEscape antigenic_novelty,9,24,0.375,24
+EVEscape,H1N1,EVEscape dissimilarity_charge_hydro,10,24,0.4166666666666667,24
+EVEscape,H1N1,EVEscape fitness_eve,9,24,0.375,24
+EVEscape,H1N1,EVEscape total_escape,10,24,0.4166666666666667,24
+EVEscape,H3N2,EVEscape accessibility_wcn,9,24,0.375,24
+EVEscape,H3N2,EVEscape antigenic_novelty,7,24,0.2916666666666667,24
+EVEscape,H3N2,EVEscape dissimilarity_charge_hydro,7,24,0.2916666666666667,24
+EVEscape,H3N2,EVEscape fitness_eve,8,24,0.3333333333333333,24
+EVEscape,H3N2,EVEscape total_escape,9,24,0.375,24
+EVEscape,Victoria,EVEscape accessibility_wcn,16,24,0.6666666666666666,24
+EVEscape,Victoria,EVEscape antigenic_novelty,19,24,0.7916666666666666,24
+EVEscape,Victoria,EVEscape dissimilarity_charge_hydro,16,24,0.6666666666666666,24
+EVEscape,Victoria,EVEscape fitness_eve,17,24,0.7083333333333334,24
+EVEscape,Victoria,EVEscape total_escape,17,24,0.7083333333333334,24
+EVEscape,All,EVEscape accessibility_wcn,34,72,0.4722222222222222,72
+EVEscape,All,EVEscape antigenic_novelty,35,72,0.4861111111111111,72
+EVEscape,All,EVEscape dissimilarity_charge_hydro,33,72,0.4583333333333333,72
+EVEscape,All,EVEscape fitness_eve,34,72,0.4722222222222222,72
+EVEscape,All,EVEscape total_escape,36,72,0.5,72
+FutureFlu_HA1,H1N1,FutureFlu D fit,13,24,0.5416666666666666,24
+FutureFlu_HA1,H1N1,FutureFlu D freq,14,24,0.5833333333333334,24
+FutureFlu_HA1,H1N1,FutureFlu E fit,10,24,0.4166666666666667,24
+FutureFlu_HA1,H1N1,FutureFlu E freq,12,24,0.5,24
+FutureFlu_HA1,H1N1,FutureFlu E+D fit,13,24,0.5416666666666666,24
+FutureFlu_HA1,H1N1,FutureFlu E+D freq,15,24,0.625,24
+FutureFlu_HA1,H1N1,FutureFlu E+G fit,13,24,0.5416666666666666,24
+FutureFlu_HA1,H1N1,FutureFlu E+G freq,14,24,0.5833333333333334,24
+FutureFlu_HA1,H1N1,FutureFlu E+G+D fit,16,24,0.6666666666666666,24
+FutureFlu_HA1,H1N1,FutureFlu E+G+D freq,16,24,0.6666666666666666,24
+FutureFlu_HA1,H1N1,FutureFlu G fit,13,24,0.5416666666666666,24
+FutureFlu_HA1,H1N1,FutureFlu G freq,15,24,0.625,24
+FutureFlu_HA1,H1N1,FutureFlu G+D fit,16,24,0.6666666666666666,24
+FutureFlu_HA1,H1N1,FutureFlu G+D freq,15,24,0.625,24
+FutureFlu_HA1,H3N2,FutureFlu D fit,8,24,0.3333333333333333,24
+FutureFlu_HA1,H3N2,FutureFlu D freq,7,24,0.2916666666666667,24
+FutureFlu_HA1,H3N2,FutureFlu E fit,9,24,0.375,24
+FutureFlu_HA1,H3N2,FutureFlu E freq,7,24,0.2916666666666667,24
+FutureFlu_HA1,H3N2,FutureFlu E+D fit,10,24,0.4166666666666667,24
+FutureFlu_HA1,H3N2,FutureFlu E+D freq,8,24,0.3333333333333333,24
+FutureFlu_HA1,H3N2,FutureFlu E+G fit,8,24,0.3333333333333333,24
+FutureFlu_HA1,H3N2,FutureFlu E+G freq,7,24,0.2916666666666667,24
+FutureFlu_HA1,H3N2,FutureFlu E+G+D fit,10,24,0.4166666666666667,24
+FutureFlu_HA1,H3N2,FutureFlu E+G+D freq,7,24,0.2916666666666667,24
+FutureFlu_HA1,H3N2,FutureFlu G fit,6,24,0.25,24
+FutureFlu_HA1,H3N2,FutureFlu G freq,5,24,0.20833333333333334,24
+FutureFlu_HA1,H3N2,FutureFlu G+D fit,7,24,0.2916666666666667,24
+FutureFlu_HA1,H3N2,FutureFlu G+D freq,7,24,0.2916666666666667,24
+FutureFlu_HA1,Victoria,FutureFlu D fit,15,24,0.625,24
+FutureFlu_HA1,Victoria,FutureFlu D freq,16,24,0.6666666666666666,24
+FutureFlu_HA1,Victoria,FutureFlu E fit,17,24,0.7083333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu E freq,20,24,0.8333333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu E+D fit,17,24,0.7083333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu E+D freq,18,24,0.75,24
+FutureFlu_HA1,Victoria,FutureFlu E+G fit,20,24,0.8333333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu E+G freq,20,24,0.8333333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu E+G+D fit,20,24,0.8333333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu E+G+D freq,20,24,0.8333333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu G fit,17,24,0.7083333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu G freq,17,24,0.7083333333333334,24
+FutureFlu_HA1,Victoria,FutureFlu G+D fit,18,24,0.75,24
+FutureFlu_HA1,Victoria,FutureFlu G+D freq,16,24,0.6666666666666666,24
+FutureFlu_HA1,All,FutureFlu D fit,36,72,0.5,72
+FutureFlu_HA1,All,FutureFlu D freq,37,72,0.5138888888888888,72
+FutureFlu_HA1,All,FutureFlu E fit,36,72,0.5,72
+FutureFlu_HA1,All,FutureFlu E freq,39,72,0.5416666666666666,72
+FutureFlu_HA1,All,FutureFlu E+D fit,40,72,0.5555555555555556,72
+FutureFlu_HA1,All,FutureFlu E+D freq,41,72,0.5694444444444444,72
+FutureFlu_HA1,All,FutureFlu E+G fit,41,72,0.5694444444444444,72
+FutureFlu_HA1,All,FutureFlu E+G freq,41,72,0.5694444444444444,72
+FutureFlu_HA1,All,FutureFlu E+G+D fit,46,72,0.6388888888888888,72
+FutureFlu_HA1,All,FutureFlu E+G+D freq,43,72,0.5972222222222222,72
+FutureFlu_HA1,All,FutureFlu G fit,36,72,0.5,72
+FutureFlu_HA1,All,FutureFlu G freq,37,72,0.5138888888888888,72
+FutureFlu_HA1,All,FutureFlu G+D fit,41,72,0.5694444444444444,72
+FutureFlu_HA1,All,FutureFlu G+D freq,38,72,0.5277777777777778,72

@@ -1,0 +1,9 @@
+risk_mutation_group,count,model
+294A,5,linear
+"297R,333M",3,linear
+"294A,301V",1,linear
+"294A,297R,309S,333M,352L,356A,359A,364R,377S,379E",1,linear
+"297R,329R,333M,396L",1,linear
+"297R,333M,343L",1,linear
+"294A,356I",1,linear
+"294A,329R,351L",1,linear

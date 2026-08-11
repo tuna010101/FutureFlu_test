@@ -1,0 +1,97 @@
+configuration,dataset,year,hemisphere,combo,method,T_E,T_G,T_D,truth_clade,pred_clade,correct
+Baseline,baseline,2013,south,E+G+D,fit,1.0,1.0,1.0,3C.3a,3C.3a,True
+Baseline,baseline,2013,north,E+G+D,fit,1.0,1.0,1.0,3C.3a,3C.3a,True
+Baseline,baseline,2014,south,E+G+D,fit,3.0,0.3,0.2,3C.3a,3C.3a,True
+Baseline,baseline,2014,north,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.3a,False
+Baseline,baseline,2015,south,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.2,True
+Baseline,baseline,2015,north,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.2,True
+Baseline,baseline,2016,south,E+G+D,fit,5.0,5.0,0.5,3C.2a,3C.2,False
+Baseline,baseline,2016,north,E+G+D,fit,6.0,6.0,0.5,3C.2a1,3C.2a,False
+Baseline,baseline,2017,south,E+G+D,fit,5.0,6.0,0.5,3C.2a1,3C.3a,False
+Baseline,baseline,2017,north,E+G+D,fit,6.0,6.0,0.5,3C.2a2,3C.2a,False
+Baseline,baseline,2018,south,E+G+D,fit,6.0,6.0,0.5,3C.2a2,3C.2a2,True
+Baseline,baseline,2018,north,E+G+D,fit,6.0,5.0,0.5,3C.2a1b.1,3C.2a2,False
+Baseline,baseline,2019,south,E+G+D,fit,6.0,6.0,0.5,3C.3a1,3C.2a2,False
+Baseline,baseline,2019,north,E+G+D,fit,6.0,5.0,0.5,3C.3a1,3C.2a1b.2,False
+Baseline,baseline,2020,south,E+G+D,fit,5.0,6.0,0.5,3C.3a1,3C.3a1,True
+Baseline,baseline,2020,north,E+G+D,fit,2.0,6.0,0.6,3C.2a1b.2a.2,3C.3a1,False
+Baseline,baseline,2021,south,E+G+D,fit,1.0,10.0,0.8,3C.2a1b.2a.2c,3C.3a1,False
+Baseline,baseline,2021,north,E+G+D,fit,1.0,10.0,0.8,3C.2a1b.2a.2a.1a,3C.2a1b.2a.1a,False
+Baseline,baseline,2022,south,E+G+D,fit,1.0,10.0,0.8,3C.2a1b.2a.2a.1,3C.2a1b.2a.2d,False
+Baseline,baseline,2022,north,E+G+D,fit,1.0,10.0,0.8,3C.2a1b.2a.2b,3C.2a1b.2a.2a.1a,False
+Baseline,baseline,2023,south,E+G+D,fit,1.0,10.0,0.8,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3a.1,True
+Baseline,baseline,2023,north,E+G+D,fit,1.0,10.0,0.8,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2b,False
+Baseline,baseline,2024,south,E+G+D,fit,1.0,10.0,0.8,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3a.1,True
+Baseline,baseline,2024,north,E+G+D,fit,1.0,10.0,0.8,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3a.1,True
+DMS hk19,hk19,2013,south,E+G+D,fit,1.0,1.0,1.0,3C.3a,3C.3a,True
+DMS hk19,hk19,2013,north,E+G+D,fit,1.0,1.0,1.0,3C.3a,3C.3a,True
+DMS hk19,hk19,2014,south,E+G+D,fit,3.0,0.3,0.2,3C.3a,3C.3a,True
+DMS hk19,hk19,2014,north,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.3a,False
+DMS hk19,hk19,2015,south,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.2,True
+DMS hk19,hk19,2015,north,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.2,True
+DMS hk19,hk19,2016,south,E+G+D,fit,5.0,5.0,0.5,3C.2a,3C.2,False
+DMS hk19,hk19,2016,north,E+G+D,fit,6.0,6.0,0.5,3C.2a1,3C.2a,False
+DMS hk19,hk19,2017,south,E+G+D,fit,5.0,6.0,0.5,3C.2a1,3C.3a,False
+DMS hk19,hk19,2017,north,E+G+D,fit,6.0,6.0,0.5,3C.2a2,3C.2a,False
+DMS hk19,hk19,2018,south,E+G+D,fit,6.0,6.0,0.5,3C.2a2,3C.2a2,True
+DMS hk19,hk19,2018,north,E+G+D,fit,6.0,5.0,0.5,3C.2a1b.1,3C.2,False
+DMS hk19,hk19,2019,south,E+G+D,fit,6.0,6.0,0.5,3C.3a1,3C.2a2,False
+DMS hk19,hk19,2019,north,E+G+D,fit,6.0,5.0,0.5,3C.3a1,3C.2a1b.2,False
+DMS hk19,hk19,2020,south,E+G+D,fit,6.0,6.0,0.5,3C.3a1,3C.3a1,True
+DMS hk19,hk19,2020,north,E+G+D,fit,5.0,6.0,0.5,3C.2a1b.2a.2,3C.3a1,False
+DMS hk19,hk19,2021,south,E+G+D,fit,2.0,6.0,0.6,3C.2a1b.2a.2c,3C.2a1b.1a,False
+DMS hk19,hk19,2021,north,E+G+D,fit,0.5,10.0,4.0,3C.2a1b.2a.2a.1a,3C.2a1b.2a.1a,False
+DMS hk19,hk19,2022,south,E+G+D,fit,0.5,10.0,4.0,3C.2a1b.2a.2a.1,3C.2a1b.2a.2d,False
+DMS hk19,hk19,2022,north,E+G+D,fit,0.5,10.0,4.0,3C.2a1b.2a.2b,3C.2a1b.2a.2a.3,False
+DMS hk19,hk19,2023,south,E+G+D,fit,0.5,10.0,4.0,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.1,False
+DMS hk19,hk19,2023,north,E+G+D,fit,0.5,10.0,4.0,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2b,False
+DMS hk19,hk19,2024,south,E+G+D,fit,0.5,10.0,4.0,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2b,False
+DMS hk19,hk19,2024,north,E+G+D,fit,0.5,10.0,4.0,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3a.1,True
+DMS ma22,ma22,2013,south,E+G+D,fit,1.0,1.0,1.0,3C.3a,3C.3a,True
+DMS ma22,ma22,2013,north,E+G+D,fit,1.0,1.0,1.0,3C.3a,3C.3a,True
+DMS ma22,ma22,2014,south,E+G+D,fit,0.1,0.1,0.5,3C.3a,3C.3a,True
+DMS ma22,ma22,2014,north,E+G+D,fit,3.0,3.0,0.5,3C.2,3C.3a,False
+DMS ma22,ma22,2015,south,E+G+D,fit,3.0,3.0,0.5,3C.2,3C.2,True
+DMS ma22,ma22,2015,north,E+G+D,fit,3.0,3.0,0.5,3C.2,3C.2,True
+DMS ma22,ma22,2016,south,E+G+D,fit,3.0,3.0,0.5,3C.2a,3C.2,False
+DMS ma22,ma22,2016,north,E+G+D,fit,10.0,3.0,0.5,3C.2a1,3C.2a,False
+DMS ma22,ma22,2017,south,E+G+D,fit,10.0,9.0,0.5,3C.2a1,3C.3a,False
+DMS ma22,ma22,2017,north,E+G+D,fit,10.0,3.0,0.4,3C.2a2,3C.2a,False
+DMS ma22,ma22,2018,south,E+G+D,fit,10.0,10.0,0.4,3C.2a2,3C.2a2,True
+DMS ma22,ma22,2018,north,E+G+D,fit,10.0,3.0,0.5,3C.2a1b.1,3C.2a2,False
+DMS ma22,ma22,2019,south,E+G+D,fit,10.0,3.0,0.5,3C.3a1,3C.2a2,False
+DMS ma22,ma22,2019,north,E+G+D,fit,10.0,3.0,0.5,3C.3a1,3C.2a1b.2,False
+DMS ma22,ma22,2020,south,E+G+D,fit,6.0,4.0,0.5,3C.3a1,3C.3a1,True
+DMS ma22,ma22,2020,north,E+G+D,fit,0.4,4.0,0.2,3C.2a1b.2a.2,3C.3a1,False
+DMS ma22,ma22,2021,south,E+G+D,fit,5.0,4.0,0.5,3C.2a1b.2a.2c,3C.3a1,False
+DMS ma22,ma22,2021,north,E+G+D,fit,5.0,4.0,0.5,3C.2a1b.2a.2a.1a,3C.2a1b.2a.1a,False
+DMS ma22,ma22,2022,south,E+G+D,fit,10.0,3.0,0.5,3C.2a1b.2a.2a.1,3C.2a1b.2a.2d,False
+DMS ma22,ma22,2022,north,E+G+D,fit,10.0,3.0,0.5,3C.2a1b.2a.2b,3C.2a1b.2a.2a.1a,False
+DMS ma22,ma22,2023,south,E+G+D,fit,10.0,3.0,0.5,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.1,False
+DMS ma22,ma22,2023,north,E+G+D,fit,10.0,3.0,0.5,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.1b,False
+DMS ma22,ma22,2024,south,E+G+D,fit,10.0,3.0,0.5,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.1b,False
+DMS ma22,ma22,2024,north,E+G+D,fit,10.0,3.0,0.5,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3a.1,True
+DMS pe09,pe09,2013,south,E+G+D,fit,1.0,1.0,1.0,3C.3a,3C.3a,True
+DMS pe09,pe09,2013,north,E+G+D,fit,1.0,1.0,1.0,3C.3a,3C.3a,True
+DMS pe09,pe09,2014,south,E+G+D,fit,0.1,0.1,0.5,3C.3a,3C.3a,True
+DMS pe09,pe09,2014,north,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.3a,False
+DMS pe09,pe09,2015,south,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.2,True
+DMS pe09,pe09,2015,north,E+G+D,fit,6.0,6.0,0.5,3C.2,3C.2,True
+DMS pe09,pe09,2016,south,E+G+D,fit,0.5,5.0,5.0,3C.2a,3C.3a,False
+DMS pe09,pe09,2016,north,E+G+D,fit,6.0,6.0,0.5,3C.2a1,3C.2a,False
+DMS pe09,pe09,2017,south,E+G+D,fit,5.0,6.0,0.5,3C.2a1,3C.3a,False
+DMS pe09,pe09,2017,north,E+G+D,fit,6.0,6.0,0.5,3C.2a2,3C.2a,False
+DMS pe09,pe09,2018,south,E+G+D,fit,6.0,6.0,0.5,3C.2a2,3C.2a2,True
+DMS pe09,pe09,2018,north,E+G+D,fit,6.0,5.0,0.5,3C.2a1b.1,3C.2,False
+DMS pe09,pe09,2019,south,E+G+D,fit,6.0,6.0,0.5,3C.3a1,3C.2a2,False
+DMS pe09,pe09,2019,north,E+G+D,fit,6.0,5.0,0.5,3C.3a1,3C.2a1b.2,False
+DMS pe09,pe09,2020,south,E+G+D,fit,6.0,6.0,0.5,3C.3a1,3C.3a1,True
+DMS pe09,pe09,2020,north,E+G+D,fit,6.0,6.0,0.5,3C.2a1b.2a.2,3C.3a1,False
+DMS pe09,pe09,2021,south,E+G+D,fit,6.0,6.0,0.5,3C.2a1b.2a.2c,3C.3a1,False
+DMS pe09,pe09,2021,north,E+G+D,fit,6.0,6.0,0.5,3C.2a1b.2a.2a.1a,3C.2a1b.2a.1a,False
+DMS pe09,pe09,2022,south,E+G+D,fit,6.0,5.0,0.5,3C.2a1b.2a.2a.1,3C.2a1b.2a.2d,False
+DMS pe09,pe09,2022,north,E+G+D,fit,6.0,5.0,0.5,3C.2a1b.2a.2b,3C.2a1b.2a.2a.1a,False
+DMS pe09,pe09,2023,south,E+G+D,fit,0.5,10.0,10.0,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3b,False
+DMS pe09,pe09,2023,north,E+G+D,fit,0.5,10.0,10.0,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3b,False
+DMS pe09,pe09,2024,south,E+G+D,fit,0.5,10.0,10.0,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3a.1,True
+DMS pe09,pe09,2024,north,E+G+D,fit,0.5,10.0,10.0,3C.2a1b.2a.2a.3a.1,3C.2a1b.2a.2a.3a.1,True

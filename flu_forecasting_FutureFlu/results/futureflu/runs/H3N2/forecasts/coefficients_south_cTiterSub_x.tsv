@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+cTiterSub_x	south	2013	cTiterSub_x	-0.07047295493349895	2012-09-01
+cTiterSub_x	south	2014	cTiterSub_x	-0.05306821065631309	2013-09-01
+cTiterSub_x	south	2015	cTiterSub_x	4.578735465649887	2014-09-01
+cTiterSub_x	south	2016	cTiterSub_x	4.616327059668176	2015-09-01
+cTiterSub_x	south	2017	cTiterSub_x	4.37474876068598	2016-09-01
+cTiterSub_x	south	2018	cTiterSub_x	4.614751204635811	2017-09-01
+cTiterSub_x	south	2019	cTiterSub_x	3.7289149156030934	2018-09-01
+cTiterSub_x	south	2020	cTiterSub_x	2.0476511241755837	2019-09-01
+cTiterSub_x	south	2021	cTiterSub_x	1.9032128638036232	2020-09-01
+cTiterSub_x	south	2022	cTiterSub_x	-4.411982037829001	2021-09-01
+cTiterSub_x	south	2023	cTiterSub_x	-4.227876752933163	2022-09-01
+cTiterSub_x	south	2024	cTiterSub_x	-3.6053316961627666	2023-09-01

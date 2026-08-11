@@ -1,0 +1,50 @@
+{
+  "subtype": "H3N2",
+  "fasta_path": "",
+  "info_path": "",
+  "evescape_prefix": "FLUA3",
+  "evescape_dir": "EVEscape/H3N2_evescape",
+  "sequence_cutoff": "2025-02-01",
+  "theta_start": 0.1,
+  "theta_end": 0.5,
+  "theta_step": 0.1,
+  "output_root": "outputs",
+  "seasons": [
+    {
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "hemisphere": "North",
+      "epi_csv": "positivity/H3N2_positive_rate_north.csv"
+    },
+    {
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "hemisphere": "South",
+      "epi_csv": "positivity/H3N2_positive_rate_south.csv"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+risk_mutation_group,count,model
+"155R,266L",32,linear
+233T,24,linear
+"155R,169I,266L",11,linear
+101G,10,linear
+277T,9,linear
+172E,7,linear
+"163E,71R",7,linear
+266L,6,linear
+288T,6,linear
+"155R,172E,266L",2,linear
+"172E,288T",1,linear
+"155R,169I,172E,266L",1,linear
+"101G,172E",1,linear
+155R,1,linear
+"172E,71R",1,linear
+"172E,233T,277T",1,linear

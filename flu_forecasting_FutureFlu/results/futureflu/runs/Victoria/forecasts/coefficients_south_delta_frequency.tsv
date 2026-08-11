@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+delta_frequency	south	2013	delta_frequency	-0.06195982197753226	2012-09-01
+delta_frequency	south	2014	delta_frequency	-0.04078563087694996	2013-09-01
+delta_frequency	south	2015	delta_frequency	-0.03197804235153432	2014-09-01
+delta_frequency	south	2016	delta_frequency	0.1704181252573277	2015-09-01
+delta_frequency	south	2017	delta_frequency	0.3031728402232825	2016-09-01
+delta_frequency	south	2018	delta_frequency	0.2581102162768254	2017-09-01
+delta_frequency	south	2019	delta_frequency	0.20946452244966346	2018-09-01
+delta_frequency	south	2020	delta_frequency	3.0531133177191805e-16	2019-09-01
+delta_frequency	south	2021	delta_frequency	0.001278081928924631	2020-09-01
+delta_frequency	south	2022	delta_frequency	-0.0019920885103139187	2021-09-01
+delta_frequency	south	2023	delta_frequency	-0.041717706074098596	2022-09-01
+delta_frequency	south	2024	delta_frequency	-0.07400983010709443	2023-09-01

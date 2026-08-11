@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+oracle_x	north	2013	oracle_x	0.06952810264915128	2013-02-01
+oracle_x	north	2014	oracle_x	0.0368865130772168	2014-02-01
+oracle_x	north	2015	oracle_x	0.06957099459783837	2015-02-01
+oracle_x	north	2016	oracle_x	0.08320188744675847	2016-02-01
+oracle_x	north	2017	oracle_x	0.042161240034774644	2017-02-01
+oracle_x	north	2018	oracle_x	0.0830704826850083	2018-02-01
+oracle_x	north	2019	oracle_x	0.07055066164155817	2019-02-01
+oracle_x	north	2020	oracle_x	0.06391481508953528	2020-02-01
+oracle_x	north	2021	oracle_x	0.023300476507147956	2021-02-01
+oracle_x	north	2022	oracle_x	0.0547935135863798	2022-02-01
+oracle_x	north	2023	oracle_x	0.05274076249140836	2023-02-01
+oracle_x	north	2024	oracle_x	0.07147302816631594	2024-02-01

@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+oracle_x	south	2013	oracle_x	0.09118034112382926	2012-09-01
+oracle_x	south	2014	oracle_x	-1.839407436245652	2013-09-01
+oracle_x	south	2015	oracle_x	-2.8196705196970666	2014-09-01
+oracle_x	south	2016	oracle_x	-2.7853302371207134	2015-09-01
+oracle_x	south	2017	oracle_x	-1.7704665086602076	2016-09-01
+oracle_x	south	2018	oracle_x	-1.688034535746503	2017-09-01
+oracle_x	south	2019	oracle_x	-1.8074910188066382	2018-09-01
+oracle_x	south	2020	oracle_x	-1.850603457555382	2019-09-01
+oracle_x	south	2021	oracle_x	-1.5016650668027403	2020-09-01
+oracle_x	south	2022	oracle_x	-2.250681624184136	2021-09-01
+oracle_x	south	2023	oracle_x	-2.0252038848210905	2022-09-01
+oracle_x	south	2024	oracle_x	-1.934497713910442	2023-09-01

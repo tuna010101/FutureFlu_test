@@ -1,0 +1,16 @@
+risk_mutation_group,count,model
+"202S,214P",35,linear
+"202S,214P,21V",3,linear
+"208F,214P,70N",3,linear
+"202S,214P,220I",1,linear
+217I,1,linear
+"202S,214P,289L",1,linear
+"202S,214P,26R",1,linear
+"18R,208F",1,linear
+"146A,208F,20S,214P,315K",1,linear
+"117E,202A,214P",1,linear
+60R,1,linear
+204N,1,linear
+172Q,1,linear
+158E,1,linear
+"104I,110H,149D,151A,158R,160I,161N,172Q,175F,181E,183A,19L,202A,214A,215A,219I,225G,239V,254R,25N,294N,296A,328R,339I,61S,62F,64T,98N",1,linear

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+# Large local rerun artifacts under raw_inputs/.
+raw_inputs/nextclade/datasets/
+raw_inputs/nextclade/results/
+raw_inputs/aligned_pro/
+raw_inputs/subclade_annotations/
+raw_inputs/provenance/
+raw_inputs/*.fasta
+raw_inputs/*.csv
+
+experiments/truth_season_end_subclade/data/nextclade/datasets/
+experiments/truth_season_end_subclade/data/nextclade/results/

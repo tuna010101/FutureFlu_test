@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+dms_nonepitope	north	2013	dms_nonepitope	0.05559353554588291	2013-02-01
+dms_nonepitope	north	2014	dms_nonepitope	0.07959004126090505	2014-02-01
+dms_nonepitope	north	2015	dms_nonepitope	0.05980294376663642	2015-02-01
+dms_nonepitope	north	2016	dms_nonepitope	0.05458485620907494	2016-02-01
+dms_nonepitope	north	2017	dms_nonepitope	0.01889879762094948	2017-02-01
+dms_nonepitope	north	2018	dms_nonepitope	0.06668452140628624	2018-02-01
+dms_nonepitope	north	2019	dms_nonepitope	0.05319660147737077	2019-02-01
+dms_nonepitope	north	2020	dms_nonepitope	0.026018727817937015	2020-02-01
+dms_nonepitope	north	2021	dms_nonepitope	0.05217796577331696	2021-02-01
+dms_nonepitope	north	2022	dms_nonepitope	0.009822239348843766	2022-02-01
+dms_nonepitope	north	2023	dms_nonepitope	-0.024347654335689594	2023-02-01
+dms_nonepitope	north	2024	dms_nonepitope	-0.0364810804128201	2024-02-01

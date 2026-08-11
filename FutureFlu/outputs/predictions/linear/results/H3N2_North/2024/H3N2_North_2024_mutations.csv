@@ -1,0 +1,6 @@
+predict_season,risk_mutation,previous_prevalence,predicted_prevalence,delta,model
+2024,161N,0.0572,0.0966,0.0394,linear
+2024,184I,0.0299,0.0587,0.0288,linear
+2024,255S,0.0385,0.0763,0.0378,linear
+2024,41V,0.1886,0.3759,0.1873,linear
+2024,95L,0.0515,0.1006,0.0491,linear

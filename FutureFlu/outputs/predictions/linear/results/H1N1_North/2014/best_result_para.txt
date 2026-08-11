@@ -1,0 +1,18 @@
+分析开始时间: 2026-05-28 14:43:24
+--------------------------------------------------
+reproduction input seq_file: data/H1N1_HA_sequence_20250131.csv
+reproduction input epi_file: not_in_package:data/positivity/H1N1_positive_rate_north.csv
+
+开始不同年份范围的拟合分析:
+
+使用3年数据进行拟合 (2011-2013):
+当前最佳 - Theta: 0.40, R²: 0.999
+
+使用4年数据进行拟合 (2010-2013):
+当前最佳 - Theta: 0.20, R²: 0.334
+
+=== 最终最优拟合结果 ===
+使用年份范围: 2011-2013 (3年)
+最优Theta: 0.40
+最优R²: 0.999
+best theta: 0.4, R2: 0.999, years used: 3

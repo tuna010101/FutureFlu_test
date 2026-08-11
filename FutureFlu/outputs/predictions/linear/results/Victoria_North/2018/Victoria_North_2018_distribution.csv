@@ -1,0 +1,16 @@
+risk_mutation_group,count,model
+"144G,177-,178-,195V",39,linear
+"102A,190V",27,linear
+276L,15,linear
+169T,6,linear
+"180N,236I",5,linear
+"180N,227R,236I,67N",5,linear
+90E,4,linear
+"177-,178-,179-,195T,224N",4,linear
+"140V,144G,177-,178-,195V",4,linear
+"144G,177-,178-,195V,338T",3,linear
+227R,2,linear
+338T,1,linear
+"102A,90E",1,linear
+"144G,177-,178-",1,linear
+180N,1,linear

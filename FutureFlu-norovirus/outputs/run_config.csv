@@ -1,0 +1,2 @@
+start_year,end_year,thetas,max_gaps,sequence_rows_after_gap_filter,subtype,hemisphere,clade_column,season_window,submission_cutoff,candidate_sequence_window,submission_date_source,site_region,site_region_start,site_region_end,positive_rate_file,evescape_source
+2001,2015,0.1,3,1732,NORO_GII4,global,genotype,calendar_year,season_end_exclusive,previous_calendar_year,collection_date_fallback,279-405,279,405,data/positivity/zhang2024_yearly_norovirus_positive_rates.csv,data/EVEscape/NORO_GII4_evescape

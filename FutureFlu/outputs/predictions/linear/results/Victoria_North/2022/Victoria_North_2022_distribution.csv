@@ -1,0 +1,15 @@
+risk_mutation_group,count,model
+137Q,91,linear
+217V,57,linear
+212E,49,linear
+"248K,88I",22,linear
+"143K,185I",13,linear
+"143K,170A,245N,282V,90E",12,linear
+213G,12,linear
+"137N,95K",9,linear
+95K,6,linear
+"143K,170A,245N,90E",4,linear
+"137Q,212E",2,linear
+"143K,95K",2,linear
+248K,1,linear
+"137Q,143K",1,linear

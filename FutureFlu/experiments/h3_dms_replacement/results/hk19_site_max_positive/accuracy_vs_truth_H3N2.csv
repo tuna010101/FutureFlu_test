@@ -1,0 +1,15 @@
+scenario,dataset,strategy,combo,method,correct,total,accuracy,available_predictions
+dms_total_escape_replacement,hk19,site_max_positive,E,fit,8,24,0.3333333333333333,24
+dms_total_escape_replacement,hk19,site_max_positive,E,freq,5,24,0.20833333333333334,24
+dms_total_escape_replacement,hk19,site_max_positive,G,fit,6,24,0.25,24
+dms_total_escape_replacement,hk19,site_max_positive,G,freq,5,24,0.20833333333333334,24
+dms_total_escape_replacement,hk19,site_max_positive,D,fit,8,24,0.3333333333333333,24
+dms_total_escape_replacement,hk19,site_max_positive,D,freq,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,site_max_positive,E+G,fit,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,site_max_positive,E+G,freq,6,24,0.25,24
+dms_total_escape_replacement,hk19,site_max_positive,E+D,fit,8,24,0.3333333333333333,24
+dms_total_escape_replacement,hk19,site_max_positive,E+D,freq,8,24,0.3333333333333333,24
+dms_total_escape_replacement,hk19,site_max_positive,G+D,fit,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,site_max_positive,G+D,freq,7,24,0.2916666666666667,24
+dms_total_escape_replacement,hk19,site_max_positive,E+G+D,fit,8,24,0.3333333333333333,24
+dms_total_escape_replacement,hk19,site_max_positive,E+G+D,freq,7,24,0.2916666666666667,24

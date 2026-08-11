@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+ep_star	south	2013	ep_star	-0.09615756269162562	2012-09-01
+ep_star	south	2014	ep_star	-0.050057830808975204	2013-09-01
+ep_star	south	2015	ep_star	-0.4831911859144629	2014-09-01
+ep_star	south	2016	ep_star	-0.42362958099896164	2015-09-01
+ep_star	south	2017	ep_star	-0.22056411329456094	2016-09-01
+ep_star	south	2018	ep_star	-0.17847310596899757	2017-09-01
+ep_star	south	2019	ep_star	-0.15806807255400934	2018-09-01
+ep_star	south	2020	ep_star	-0.14719509249665785	2019-09-01
+ep_star	south	2021	ep_star	-0.09714288922333114	2020-09-01
+ep_star	south	2022	ep_star	-0.11802153616371286	2021-09-01
+ep_star	south	2023	ep_star	-0.12772572447649033	2022-09-01
+ep_star	south	2024	ep_star	-0.09346832458543437	2023-09-01

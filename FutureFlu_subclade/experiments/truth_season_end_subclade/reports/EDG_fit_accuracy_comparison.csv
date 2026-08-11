@@ -1,0 +1,4 @@
+subtype,metric_combine,accuracy_original,hit_count_original,total_count_original,methods,accuracy_season_end,hit_count_season_end,total_count_season_end
+H1N1,E+G+D,0.0,0,2,fit,0.0,0,2
+H3N2,E+G+D,1.0,2,2,fit,0.5,1,2
+Victoria,E+G+D,0.0,0,2,fit,0.5,1,2

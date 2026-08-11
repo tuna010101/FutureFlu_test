@@ -1,0 +1,13 @@
+predictors	hemisphere	forecast_year	predictor	coefficient	validation_timepoint
+ep_x_koel	south	2013	ep_x_koel	-0.4849990935760097	2012-09-01
+ep_x_koel	south	2014	ep_x_koel	-2.7082420627176633	2013-09-01
+ep_x_koel	south	2015	ep_x_koel	-3.0168765941083304	2014-09-01
+ep_x_koel	south	2016	ep_x_koel	-2.8242559447576774	2015-09-01
+ep_x_koel	south	2017	ep_x_koel	-2.337674148670933	2016-09-01
+ep_x_koel	south	2018	ep_x_koel	-2.3240157515559923	2017-09-01
+ep_x_koel	south	2019	ep_x_koel	-2.3212015576115084	2018-09-01
+ep_x_koel	south	2020	ep_x_koel	-2.3066417266960793	2019-09-01
+ep_x_koel	south	2021	ep_x_koel	-2.1445708114599187	2020-09-01
+ep_x_koel	south	2022	ep_x_koel	-2.7285277970827444	2021-09-01
+ep_x_koel	south	2023	ep_x_koel	-2.3033426204007084	2022-09-01
+ep_x_koel	south	2024	ep_x_koel	-1.8772320659166195	2023-09-01

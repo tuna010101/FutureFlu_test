@@ -1,0 +1,5 @@
+risk_mutation_group,count,model
+212S,5,linear
+"142T,159L,197A,212E,218R,236A",4,linear
+"142T,159L,197A,212E,217V,218R,236A",1,linear
+"142T,159L,218R",1,linear

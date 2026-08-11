@@ -1,0 +1,13 @@
+# Shared Python dependencies for all packages under this repository.
+# Install from the repository root:
+#   pip install -r requirements.txt
+#
+# TreeTime / Nextstrain Augur / IQ-TREE for flu_forecasting_FutureFlu come from
+# the upstream https://github.com/blab/flu-forecasting environment, not this file.
+
+pandas>=1.5
+numpy>=1.23
+scipy>=1.9
+biopython>=1.79
+PyYAML>=6
+matplotlib>=3.5

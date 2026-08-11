@@ -1,0 +1,16 @@
+year,theta,historical_years,risk_mutations,risk_mutation_groups,candidate_sequence_year,candidate_sequences,target_sequences,positive_rate_available,positive_rate_percent,component_rows,status
+2001,0.1,8,38,2,2000,2,2,False,,2,ok
+2002,0.1,9,1,1,2001,2,4,False,,0,filtered_to_empty
+2003,0.1,10,16,3,2002,4,2,False,,3,ok
+2004,0.1,11,9,2,2003,2,22,False,,2,ok
+2005,0.1,12,24,17,2004,22,14,False,,14,ok
+2006,0.1,13,16,8,2005,14,93,False,,6,ok
+2007,0.1,14,32,25,2006,93,122,False,,15,ok
+2008,0.1,15,36,34,2007,122,139,False,,21,ok
+2009,0.1,16,49,44,2008,139,95,False,,38,ok
+2010,0.1,17,50,29,2009,95,123,False,,27,ok
+2011,0.1,18,102,44,2010,123,150,False,,38,ok
+2012,0.1,19,47,48,2011,150,302,True,16.4,46,ok
+2013,0.1,20,56,56,2012,302,67,True,14.9,36,ok
+2014,0.1,21,35,19,2013,67,173,True,15.2,13,ok
+2015,0.1,22,114,62,2014,173,229,True,23.2,55,ok

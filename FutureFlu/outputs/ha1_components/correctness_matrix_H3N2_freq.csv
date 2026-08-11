@@ -1,0 +1,13 @@
+subtype,method_set,row,component_type,2013-S,2013-N,2014-S,2014-N,2015-S,2015-N,2016-S,2016-N,2017-S,2017-N,2018-S,2018-N,2019-S,2019-N,2020-S,2020-N,2021-S,2021-N,2022-S,2022-N,2023-S,2023-N,2024-S,2024-N
+H3N2,freq,FutureFlu E freq,single,X,OK,OK,X,OK,X,X,X,X,X,X,OK,X,X,OK,X,X,X,X,X,X,X,OK,OK
+H3N2,freq,FutureFlu G freq,single,X,OK,OK,X,OK,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,OK,OK
+H3N2,freq,FutureFlu D freq,single,X,OK,OK,X,OK,OK,X,X,X,X,X,X,X,X,OK,X,X,X,X,X,X,X,OK,OK
+H3N2,freq,FutureFlu E+G freq,two,X,OK,OK,X,OK,X,X,X,X,X,X,OK,X,X,OK,X,X,X,X,X,X,X,OK,OK
+H3N2,freq,FutureFlu E+D freq,two,OK,OK,OK,X,OK,OK,X,X,X,X,X,X,X,X,OK,X,X,X,X,X,X,X,OK,OK
+H3N2,freq,FutureFlu G+D freq,two,X,OK,OK,X,OK,OK,X,X,X,X,X,X,X,X,OK,X,X,X,X,X,X,X,OK,OK
+H3N2,freq,FutureFlu E+G+D freq,three,X,OK,OK,X,OK,OK,X,X,X,X,X,X,X,X,OK,X,X,X,X,X,X,X,OK,OK
+H3N2,freq,EVEscape total_escape,evescape_single_component,OK,OK,OK,X,OK,X,X,X,X,X,X,X,OK,OK,X,X,X,X,X,X,OK,X,OK,OK
+H3N2,freq,EVEscape fitness_eve,evescape_single_component,OK,OK,OK,X,OK,X,X,X,X,X,X,X,OK,OK,X,X,X,X,X,X,OK,X,X,OK
+H3N2,freq,EVEscape dissimilarity_charge_hydro,evescape_single_component,X,X,OK,X,OK,X,X,X,X,X,X,OK,OK,OK,X,X,X,X,X,X,OK,X,X,OK
+H3N2,freq,EVEscape accessibility_wcn,evescape_single_component,OK,OK,OK,X,OK,X,X,X,X,X,X,X,OK,OK,X,X,X,X,X,X,OK,X,OK,OK
+H3N2,freq,EVEscape antigenic_novelty,evescape_single_component,X,X,OK,X,OK,X,X,X,X,X,OK,OK,X,X,OK,X,X,X,X,X,X,X,OK,OK

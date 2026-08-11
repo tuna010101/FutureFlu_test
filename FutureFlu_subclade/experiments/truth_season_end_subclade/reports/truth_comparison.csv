@@ -1,0 +1,7 @@
+subtype,hemisphere,year,subclade_original,subclade_season_end,changed
+H1N1,north,2025,D.3,D.3.1.1,True
+H1N1,south,2025,D.3,D.3.1,True
+H3N2,north,2025,J.2,K,True
+H3N2,south,2025,J.2,J.2,False
+Victoria,north,2025,C.5.6,C.3.1,True
+Victoria,south,2025,C.5.6,C.5.1,True
