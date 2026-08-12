@@ -101,7 +101,7 @@ SUBTYPES = {
         na_aligned_fasta=NA_ALIGNED_DIR / "victoria_na_aligned_to_FJ766839.1.fasta",
         ha_length=585,
         na_length=466,
-        ha1_start=15,
+        ha1_start=16,
         ha1_end=362,
     ),
 }

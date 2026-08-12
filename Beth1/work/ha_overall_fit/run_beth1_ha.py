@@ -89,7 +89,7 @@ SUBTYPE_CONFIG = {
         "fasta": "data/dataset/fasta/msa-FLUBV-all-20250131-submission.fasta",
         "meta": "data/dataset/metadata/BV-all-20250131-submission.csv",
         "ha_length": 585,
-        "ha1_start": 15,
+        "ha1_start": 16,
         "ha1_end": 362,
         "epitope_file": DATA_ROOT / "Victoria-epitope.txt",
     },
@@ -156,8 +156,11 @@ def load_site_sets(subtype: str) -> Tuple[List[int], List[int]]:
     """Return antigenic and predictor site sets for one subtype. / 返回某亚型的抗原位点与预测位点集合。"""
     cfg = SUBTYPE_CONFIG[subtype]
     if "epitope_file" in cfg:
-        mature = read_mature_sites(Path(cfg["epitope_file"]))
-        aligned = mature_to_alignment_sites(mature, int(cfg["ha1_start"]))
+        # H1N1_epitope.txt / Victoria-epitope.txt are already full-length / alignment
+        # coordinates (Canton-like). Do NOT add (ha1_start-1); that double-shifts.
+        # H3 keeps mature lists + ha1_start offset below.
+        sites = read_mature_sites(Path(cfg["epitope_file"]))
+        aligned = sorted({int(site) for site in sites})
         return aligned, aligned
 
     antigenic = mature_to_alignment_sites(cfg["antigenic_mature"], int(cfg["ha1_start"]))
