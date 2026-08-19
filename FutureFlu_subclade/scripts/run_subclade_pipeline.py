@@ -801,10 +801,6 @@ def write_combined_sequence_table(subtype: str) -> dict:
                 stats["old_rows"] += 1
 
         for record in SeqIO.parse(str(fasta_path), "fasta"):
-            raw_seq = str(record.seq).strip().upper()
-            if raw_seq.count("-") > 3:
-                stats["skipped_gap_count"] += 1
-                continue
             aligned_seq = aligned_records.get(str(record.id))
             if aligned_seq is None:
                 stats["skipped_alignment_failed"] += 1
@@ -812,6 +808,9 @@ def write_combined_sequence_table(subtype: str) -> dict:
             ref_seq = extract_reference_coordinate_sequence(aligned_seq, ref_positions)
             if not any(aa != "X" for aa in ref_seq):
                 stats["skipped_alignment_failed"] += 1
+                continue
+            if ref_seq.count("-") > 3:
+                stats["skipped_gap_count"] += 1
                 continue
 
             accession_number, lookup_keys = release_record_keys(str(record.id))

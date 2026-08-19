@@ -1,7 +1,7 @@
-分析开始时间: 2026-08-03 14:37:49
+分析开始时间: 2026-08-14 17:25:23
 --------------------------------------------------
-subclade pipeline input seq_file: ./raw_inputs/Victoria_HA_sequence_20260131.csv
-subclade pipeline input epi_file: ./data/positivity/Victoria_positive_rate_south.csv
+subclade pipeline input seq_file: /root/autodl-tmp/0511_QLY_beth1/FutureFlu_Github_test/FutureFlu_subclade/raw_inputs/Victoria_HA_sequence_20260131.csv
+subclade pipeline input epi_file: /root/autodl-tmp/0511_QLY_beth1/FutureFlu_Github_test/FutureFlu_subclade/data/positivity/Victoria_positive_rate_south.csv
 
 开始不同年份范围的拟合分析:
 

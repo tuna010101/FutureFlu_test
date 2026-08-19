@@ -1,7 +1,7 @@
-分析开始时间: 2026-07-06 11:56:40
+分析开始时间: 2026-08-14 17:22:03
 --------------------------------------------------
-subclade pipeline input seq_file: ./H1N1_HA_sequence_20260131.csv
-subclade pipeline input epi_file: data/positivity/H1N1_positive_rate_north.csv
+subclade pipeline input seq_file: /root/autodl-tmp/0511_QLY_beth1/FutureFlu_Github_test/FutureFlu_subclade/raw_inputs/H1N1_HA_sequence_20260131.csv
+subclade pipeline input epi_file: /root/autodl-tmp/0511_QLY_beth1/FutureFlu_Github_test/FutureFlu_subclade/data/positivity/H1N1_positive_rate_north.csv
 
 开始不同年份范围的拟合分析:
 
