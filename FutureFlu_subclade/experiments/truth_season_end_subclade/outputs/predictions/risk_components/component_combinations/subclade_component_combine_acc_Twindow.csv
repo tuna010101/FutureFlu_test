@@ -28,7 +28,7 @@ H1N1,E+D,0.0,0,2,freq
 H3N2,E+D,1.0,2,2,fit
 H3N2,E+D,1.0,2,2,freq
 Victoria,E+D,0.5,1,2,fit
-Victoria,E+D,0.0,0,2,freq
+Victoria,E+D,0.5,1,2,freq
 H1N1,G+D,0.0,0,2,fit
 H1N1,G+D,0.0,0,2,freq
 H3N2,G+D,1.0,2,2,fit
