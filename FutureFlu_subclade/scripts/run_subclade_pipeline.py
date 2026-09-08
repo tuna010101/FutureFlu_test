@@ -1940,7 +1940,9 @@ def compute_combination_outputs(
             stored = {}
             for idx, season in enumerate(seasons):
                 past = ha1_past + [
-                    per_season[s] for s in seasons[:idx] if per_season[s]["actual_freq"] is not None
+                    per_season[s]
+                    for s in seasons[: max(0, idx - 1)]
+                    if per_season[s]["actual_freq"] is not None
                 ]
                 temps, best_loss = find_best_temperatures(past, combo_metrics)
                 stored[season] = {"temps": temps, "best_loss": best_loss, **per_season[season]}
