@@ -31,14 +31,9 @@ and write accuracy, frequency, ELPD, AIC, and provenance tables.
 
 说明：
   - 各亚型 min_seq_count：H3N2=10，H1N1/Victoria=0（内置，无命令行参数）
-  - 历史窗口：不限制，始终使用全部历史季度
   - 温度优化与预测计算（xi_prev、L1 损失）仍使用 submission_count
   - 输出表格中仅 act_freq 列改用 collection_count 计算，freq_prev 仍使用 submission_count
-
-温度选取规则（跨半球全局滚动）：
   - 起始流感季（全局第一季）：所有指标 T = 1
-  - 后续流感季：在全部历史流感季中搜索综合平均 L1 损失最小的 T 组合
-  - 平均 L1 损失 = 历史窗口内各季 L1 损失之和 / 参与训练的流感季数量
   - 同一年内顺序：南半球 → 北半球
 
 用法：
@@ -67,10 +62,6 @@ import os
 from pathlib import Path
 from itertools import product
 
-# ═════════════════════════════════════════════════════════════
-# English: Parse output arguments; min_seq_count and max_history are built in.
-# 中文：解析输出参数；min_seq_count 和 max_history 不再作为命令行参数。
-# ═════════════════════════════════════════════════════════════
 parser = argparse.ArgumentParser(
     description='Clade combination accuracy (E/G/D) with temperature optimisation.',
     formatter_class=argparse.ArgumentDefaultsHelpFormatter
@@ -160,7 +151,6 @@ print(f"[Config] pre_act output file         : {OUT_PRE_ACT_PATH}")
 print(f"[Config] divergence_inform output    : {OUT_DIVERGENCE_PATH}")
 print(f"[Config] escape_inform output        : {OUT_ESCAPE_PATH}")
 print(f"[Config] growth_inform output        : {OUT_GROWTH_PATH}")
-print(f"[Config] max_history                 : unlimited")
 
 # ═════════════════════════════════════════════════════════════
 # 全局常量
@@ -539,7 +529,6 @@ def compute_combination_accuracy(max_df:       pd.DataFrame,
                     act_freq = act_freq,
                 )
 
-            # ── Step 3: 温度优化（无窗口限制，使用全部历史）──
             stored: dict = {}
 
             for idx, (year, hemi) in enumerate(sorted_seasons):
@@ -547,7 +536,7 @@ def compute_combination_accuracy(max_df:       pd.DataFrame,
                     T_best         = {m: 1.0 for m in combo_metrics}
                     best_mean_loss = np.nan
                 else:
-                    history_seasons = sorted_seasons[:max(0, idx - 1)]   # 全部历史，无窗口限制
+                    history_seasons = sorted_seasons[:max(0, idx - 1)]
                     past_data = [
                         dict(
                             z_matrix    = per_season[(py, ph)]['z_mat'],
@@ -896,7 +885,6 @@ print("[4/4] Computing combination accuracy with rolling temperature optimisatio
 print(f"  T candidate pool : {T_VALUES}")
 print(f"  Grid sizes       : 1-metric={len(T_VALUES)**1}, "
       f"2-metric={len(T_VALUES)**2}, 3-metric={len(T_VALUES)**3}")
-print(f"  Max history (n)  : unlimited")
 
 acc_df, egdfit_df, egdtemp_df, lpd_df, pre_act_df = compute_combination_accuracy(
     max_df, freq_df, label_df, freq_df_coll

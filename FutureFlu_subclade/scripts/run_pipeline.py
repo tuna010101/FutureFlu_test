@@ -93,6 +93,10 @@ def validate_release_layout() -> None:
         / "risk_components"
         / "component_combinations"
         / "EGD_combine_Twindow.csv",
+        PACKAGE_ROOT / "data" / "ha1_clade_priors" / "clade_component_max.csv",
+        PACKAGE_ROOT / "data" / "ha1_clade_priors" / "submission_collection_clade_count_h1n1.csv",
+        PACKAGE_ROOT / "data" / "ha1_clade_priors" / "submission_collection_clade_count_h3n2.csv",
+        PACKAGE_ROOT / "data" / "ha1_clade_priors" / "submission_collection_clade_count_victoria.csv",
     ]
     missing = [path for path in required_dirs + required_files if not path.exists()]
     if missing:
@@ -100,18 +104,7 @@ def validate_release_layout() -> None:
             "required published outputs are missing:\n"
             + "\n".join(str(path) for path in missing)
         )
-    exp_root = PACKAGE_ROOT / "experiments" / "truth_season_end_subclade"
-    published_experiment_dirs = [
-        exp_root / "outputs" / "predictions" / "risk_components" / "subclade_accuracy",
-        exp_root / "outputs" / "predictions" / "risk_components" / "component_combinations",
-    ]
-    missing_exp = [path for path in published_experiment_dirs if not path.exists()]
-    if missing_exp:
-        raise FileNotFoundError(
-            "required published experiment directories are missing:\n"
-            + "\n".join(str(path) for path in missing_exp)
-        )
-    print("[validate] published outputs and experiment results are present")
+    print("[validate] published outputs are present")
 
 
 def main() -> None:

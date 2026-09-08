@@ -8,9 +8,8 @@ in seasons 2025–2026 (north and south).
 ## Layout
 
 - `scripts/` — analysis entry points
-- `data/` — subclade definitions, counts, configs, positivity, EVEscape
+- `data/` — subclade definitions, counts, HA1 clade priors, configs, positivity, EVEscape
 - `outputs/predictions/` — prediction tables
-- `experiments/` — sensitivity analyses
 - `raw_inputs/` — place private inputs here for a full rerun
 
 ## Run

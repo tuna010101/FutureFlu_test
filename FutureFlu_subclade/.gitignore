@@ -9,6 +9,3 @@ raw_inputs/subclade_annotations/
 raw_inputs/provenance/
 raw_inputs/*.fasta
 raw_inputs/*.csv
-
-experiments/truth_season_end_subclade/data/nextclade/datasets/
-experiments/truth_season_end_subclade/data/nextclade/results/

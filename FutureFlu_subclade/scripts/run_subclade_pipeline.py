@@ -41,6 +41,7 @@ LINEAR_MODULE = SCRIPTS_DIR / "predict_mutations_linear.py"
 COMPONENT_MODULE = SCRIPTS_DIR / "component_metrics.py"
 
 DATA_OUT = PACKAGE_ROOT / "data"
+HA1_PRIORS_DIR = PACKAGE_ROOT / "data" / "ha1_clade_priors"
 CONFIG_DIR = DATA_OUT / "configs"
 POSITIVITY_DIR = DATA_OUT / "positivity"
 EVESCAPE_DIR = DATA_OUT / "EVEscape"
@@ -1731,19 +1732,11 @@ def subclade_frequency_dict(
 
 
 def ha1_clade_component_max_path() -> Path:
-    return (
-        DATA_OUT
-        / "ha1_clade_priors"
-        / "clade_component_max.csv"
-    )
+    return HA1_PRIORS_DIR / "clade_component_max.csv"
 
 
 def ha1_clade_count_path(subtype: str) -> Path:
-    return (
-        DATA_OUT
-        / "ha1_clade_priors"
-        / f"submission_collection_clade_count_{subtype.lower()}.csv"
-    )
+    return HA1_PRIORS_DIR / f"submission_collection_clade_count_{subtype.lower()}.csv"
 
 
 def ha1_clade_frequency_dict(
@@ -1751,7 +1744,7 @@ def ha1_clade_frequency_dict(
 ) -> dict[str, float]:
     path = ha1_clade_count_path(subtype)
     if not path.exists():
-        return {}
+        raise FileNotFoundError(f"missing HA1 clade count table: {path}")
     counts = pd.read_csv(path)
     hemi = hemisphere.lower()
     sub = counts[(counts["year"] == year) & (counts["hemisphere"] == hemi)]
@@ -1764,16 +1757,18 @@ def ha1_clade_frequency_dict(
 def ha1_clade_temperature_training_data(subtype: str, combo_metrics: list[str]) -> list[dict]:
     max_path = ha1_clade_component_max_path()
     if not max_path.exists():
-        return []
+        raise FileNotFoundError(f"missing HA1 clade prior table: {max_path}")
     old_max = pd.read_csv(max_path)
     required_cols = {"subtype", "hemisphere", "year", "clade_single"} | {
         f"fit_{metric}" for metric in combo_metrics
     }
     if not required_cols.issubset(old_max.columns):
-        return []
+        raise KeyError(
+            f"{max_path} is missing columns: {sorted(required_cols - set(old_max.columns))}"
+        )
     sub_max = old_max[old_max["subtype"] == subtype].copy()
     if sub_max.empty:
-        return []
+        raise ValueError(f"no HA1 clade prior rows for subtype {subtype} in {max_path}")
 
     seasons = sorted(
         {
@@ -1813,6 +1808,8 @@ def ha1_clade_temperature_training_data(subtype: str, combo_metrics: list[str]) 
                 "hemisphere": hemi,
             }
         )
+    if not past:
+        raise ValueError(f"no usable HA1 clade prior seasons for subtype {subtype} in {max_path}")
     return past
 
 
@@ -1852,7 +1849,7 @@ def build_elpd_aic(lpd_df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
 
 def find_best_temperatures(past_list: list[dict], combo_metrics: list[str]) -> tuple[dict, float]:
     if not past_list:
-        return {metric: 1.0 for metric in combo_metrics}, np.nan
+        raise ValueError("temperature training history is empty")
     grid = np.array(list(product(T_VALUES, repeat=len(combo_metrics))), dtype=float)
     total_loss = np.zeros(len(grid), dtype=float)
     valid_cnt = 0
@@ -1873,7 +1870,7 @@ def find_best_temperatures(past_list: list[dict], combo_metrics: list[str]) -> t
         loss[~valid] = np.inf
         total_loss += loss
     if valid_cnt == 0:
-        return {metric: 1.0 for metric in combo_metrics}, np.nan
+        raise ValueError("temperature training history has no seasons with actual frequency")
     mean_loss = total_loss / valid_cnt
     best_idx = int(np.argmin(mean_loss))
     best_loss = float(mean_loss[best_idx])
@@ -1886,6 +1883,41 @@ def find_best_temperatures(past_list: list[dict], combo_metrics: list[str]) -> t
 def season_sort_key(item: tuple[int, str]) -> tuple[int, int]:
     year, hemi = item
     return int(year), 0 if str(hemi).lower() == "south" else 1
+
+
+def calendar_previous_season(year: int, hemisphere: str) -> tuple[int, str]:
+    if str(hemisphere).lower() == "south":
+        return int(year) - 1, "north"
+    return int(year), "south"
+
+
+def temperature_training_history(
+    prior_past: list[dict],
+    seasons: list[tuple[int, str]],
+    per_season: dict,
+    year: int,
+    hemi: str,
+) -> list[dict]:
+    pred_key = calendar_previous_season(year, hemi)
+    current = (int(year), str(hemi))
+    past = []
+    for data in prior_past:
+        key = (int(data["year"]), str(data["hemisphere"]).lower())
+        if key == pred_key:
+            continue
+        if data.get("actual_freq") is None:
+            continue
+        past.append(data)
+    for season in seasons:
+        key = (int(season[0]), str(season[1]).lower())
+        if season_sort_key(season) >= season_sort_key(current):
+            continue
+        if key == pred_key:
+            continue
+        if per_season[season]["actual_freq"] is None:
+            continue
+        past.append(per_season[season])
+    return past
 
 
 def compute_combination_outputs(
@@ -1938,14 +1970,12 @@ def compute_combination_outputs(
                 }
 
             stored = {}
-            for idx, season in enumerate(seasons):
-                past = ha1_past + [
-                    per_season[s]
-                    for s in seasons[: max(0, idx - 1)]
-                    if per_season[s]["actual_freq"] is not None
-                ]
+            for year, hemi in seasons:
+                past = temperature_training_history(
+                    ha1_past, seasons, per_season, year, hemi
+                )
                 temps, best_loss = find_best_temperatures(past, combo_metrics)
-                stored[season] = {"temps": temps, "best_loss": best_loss, **per_season[season]}
+                stored[(year, hemi)] = {"temps": temps, "best_loss": best_loss, **per_season[(year, hemi)]}
 
             hit_fit = 0
             hit_freq = 0
